@@ -35,8 +35,8 @@ def main():
                 cmd += " --threads %d" % threads
             else:
                 cmd += " --java-mem %s" % cfg.get("java_mem", "3g")
-            if method == "astral3-exact":
-                cmd += " --timeout %d" % cfg.get("exact_timeout", 7200)
+            cmd += " --timeout %d" % (cfg.get("exact_timeout", 7200) if method == "astral3-exact"
+                                      else cfg.get("baseline_timeout", 3600))
             p1.append(cmd)
         starts = [("warm", w) for w in s.get("warm", [])] + [("cold", c) for c in s.get("cold", [])]
         for strategy in s.get("strategies", []):

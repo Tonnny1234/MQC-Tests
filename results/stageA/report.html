@@ -1,0 +1,400 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Benchmark report: stageA</title><style>body{font:15px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:32px auto;max-width:1150px;padding:0 16px;color:#1f2328}h1{font-size:24px}h2{font-size:18px;margin-top:36px;border-bottom:1px solid #d0d7de;padding-bottom:4px}table{border-collapse:collapse;margin:12px 0 20px;font-size:13.5px}th,td{border:1px solid #d0d7de;padding:4px 9px;text-align:right}th{background:#f6f8fa}td:first-child,th:first-child{text-align:left}.BEAT{background:#dafbe1;font-weight:600}.TIE{background:#f6f8fa}.BEHIND{background:#ffebe9}.ERROR{background:#ff8182;font-weight:600}</style></head><body><h1>Benchmark report: stageA</h1>
+<p>Generated 2026-11-14 03:51. 152 datasets, 47861 runs (47861 finished, 0 unfinished or failed).</p>
+<p>Every score is the quartet score from one scorer (mqc score). Cross-checks: 1197 ASTRAL runs compared with the score ASTRAL printed, 304 of our trees re-scored with ASTRAL-III -q; 0 disagreements.</p>
+<h2>1. Overview: best score per dataset</h2>
+<p>Warm = our search started from ASTRAL&#x27;s tree. Cold = started from our own orders, no ASTRAL input. Each ASTRAL column is its best run over seeds. &#x27;yes&#x27; under optimal means the exact optimum was reached.</p>
+<table><tr><th>dataset</th><th>taxa</th><th>genes</th><th>exact optimum</th><th>ASTRAL-III</th><th>ASTRAL-IV</th><th>ours warm</th><th>ours cold</th><th>our best vs ASTRAL-III</th><th>our best vs ASTRAL-IV</th><th>optimal?</th></tr>
+<tr><td>sim14</td><td>14</td><td>10</td><td>4,812</td><td>4,803</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='BEAT'>BEAT +9</td><td class='TIE'>TIE</td><td>ASTRAL-III no, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>primates</td><td>14</td><td>424</td><td>389,734</td><td>389,734</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r1</td><td>12</td><td>424</td><td>194,611</td><td>194,611</td><td>194,611</td><td>194,611</td><td>194,611</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r2</td><td>12</td><td>424</td><td>195,917</td><td>195,917</td><td>195,917</td><td>195,917</td><td>195,917</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r3</td><td>12</td><td>424</td><td>200,274</td><td>200,274</td><td>200,274</td><td>200,274</td><td>200,274</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r4</td><td>12</td><td>424</td><td>199,817</td><td>199,817</td><td>199,817</td><td>199,817</td><td>199,817</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r5</td><td>12</td><td>424</td><td>194,218</td><td>194,218</td><td>194,218</td><td>194,218</td><td>194,218</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r6</td><td>12</td><td>424</td><td>190,659</td><td>190,659</td><td>190,659</td><td>190,659</td><td>190,659</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r7</td><td>12</td><td>424</td><td>198,201</td><td>198,201</td><td>198,201</td><td>198,201</td><td>198,201</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r8</td><td>12</td><td>424</td><td>194,083</td><td>194,083</td><td>194,083</td><td>194,083</td><td>194,083</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r9</td><td>12</td><td>424</td><td>195,330</td><td>195,330</td><td>195,330</td><td>195,330</td><td>195,330</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n12.r10</td><td>12</td><td>424</td><td>186,334</td><td>186,334</td><td>186,334</td><td>186,334</td><td>186,334</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r1</td><td>14</td><td>424</td><td>366,273</td><td>366,273</td><td>366,273</td><td>366,273</td><td>366,273</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r2</td><td>14</td><td>424</td><td>391,680</td><td>391,680</td><td>391,680</td><td>391,680</td><td>391,680</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r3</td><td>14</td><td>424</td><td>393,756</td><td>393,756</td><td>393,756</td><td>393,756</td><td>393,756</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r4</td><td>14</td><td>424</td><td>376,561</td><td>376,561</td><td>376,561</td><td>376,561</td><td>376,561</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r5</td><td>14</td><td>424</td><td>375,173</td><td>375,173</td><td>375,173</td><td>375,173</td><td>375,173</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r6</td><td>14</td><td>424</td><td>375,783</td><td>375,783</td><td>375,783</td><td>375,783</td><td>375,783</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r7</td><td>14</td><td>424</td><td>384,012</td><td>384,012</td><td>384,012</td><td>384,012</td><td>384,012</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r8</td><td>14</td><td>424</td><td>393,900</td><td>393,900</td><td>393,900</td><td>393,900</td><td>393,900</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r9</td><td>14</td><td>424</td><td>403,242</td><td>403,242</td><td>403,242</td><td>403,242</td><td>403,242</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n14.r10</td><td>14</td><td>424</td><td>402,471</td><td>402,471</td><td>402,471</td><td>402,471</td><td>402,471</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r1</td><td>16</td><td>424</td><td>703,796</td><td>703,796</td><td>703,796</td><td>703,796</td><td>703,796</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r2</td><td>16</td><td>424</td><td>714,967</td><td>714,967</td><td>714,967</td><td>714,967</td><td>714,967</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r3</td><td>16</td><td>424</td><td>716,634</td><td>716,634</td><td>716,634</td><td>716,634</td><td>716,634</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r4</td><td>16</td><td>424</td><td>697,440</td><td>697,440</td><td>697,440</td><td>697,440</td><td>697,440</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r5</td><td>16</td><td>424</td><td>709,405</td><td>709,405</td><td>709,405</td><td>709,405</td><td>709,405</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r6</td><td>16</td><td>424</td><td>722,973</td><td>722,973</td><td>722,973</td><td>722,973</td><td>722,973</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r7</td><td>16</td><td>424</td><td>724,824</td><td>724,824</td><td>724,824</td><td>724,824</td><td>724,824</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r8</td><td>16</td><td>424</td><td>707,376</td><td>707,376</td><td>707,376</td><td>707,376</td><td>707,376</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r9</td><td>16</td><td>424</td><td>702,115</td><td>702,115</td><td>702,115</td><td>702,115</td><td>702,115</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>mammals.n16.r10</td><td>16</td><td>424</td><td>703,279</td><td>703,279</td><td>703,279</td><td>703,279</td><td>703,279</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r1</td><td>12</td><td>416</td><td>31,095</td><td>31,095</td><td>31,095</td><td>31,095</td><td>31,095</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r2</td><td>12</td><td>423</td><td>33,048</td><td>33,048</td><td>33,048</td><td>33,048</td><td>33,048</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r3</td><td>12</td><td>418</td><td>26,594</td><td>26,594</td><td>26,594</td><td>26,594</td><td>26,594</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r4</td><td>12</td><td>421</td><td>39,141</td><td>39,141</td><td>39,141</td><td>39,141</td><td>39,141</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r5</td><td>12</td><td>415</td><td>34,097</td><td>34,097</td><td>34,097</td><td>34,097</td><td>34,097</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r6</td><td>12</td><td>411</td><td>39,008</td><td>39,008</td><td>39,008</td><td>39,008</td><td>39,008</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r7</td><td>12</td><td>398</td><td>17,649</td><td>17,649</td><td>17,649</td><td>17,649</td><td>17,649</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r8</td><td>12</td><td>424</td><td>33,640</td><td>33,640</td><td>33,640</td><td>33,640</td><td>33,640</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r9</td><td>12</td><td>420</td><td>38,226</td><td>38,226</td><td>38,226</td><td>38,226</td><td>38,226</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n12.r10</td><td>12</td><td>422</td><td>21,546</td><td>21,546</td><td>21,546</td><td>21,546</td><td>21,546</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r1</td><td>14</td><td>421</td><td>72,234</td><td>72,234</td><td>72,234</td><td>72,234</td><td>72,234</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r2</td><td>14</td><td>424</td><td>102,844</td><td>102,844</td><td>102,844</td><td>102,844</td><td>102,844</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r3</td><td>14</td><td>420</td><td>63,911</td><td>63,911</td><td>63,911</td><td>63,911</td><td>63,911</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r4</td><td>14</td><td>424</td><td>71,156</td><td>71,156</td><td>71,156</td><td>71,156</td><td>71,156</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r5</td><td>14</td><td>423</td><td>75,957</td><td>75,957</td><td>75,957</td><td>75,957</td><td>75,957</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r6</td><td>14</td><td>424</td><td>91,941</td><td>91,941</td><td>91,941</td><td>91,941</td><td>91,941</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r7</td><td>14</td><td>424</td><td>112,147</td><td>112,147</td><td>112,147</td><td>112,147</td><td>112,147</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r8</td><td>14</td><td>417</td><td>50,220</td><td>50,220</td><td>50,220</td><td>50,220</td><td>50,220</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r9</td><td>14</td><td>424</td><td>95,100</td><td>95,100</td><td>95,100</td><td>95,100</td><td>95,100</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n14.r10</td><td>14</td><td>423</td><td>76,018</td><td>76,018</td><td>76,018</td><td>76,018</td><td>76,018</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r1</td><td>16</td><td>424</td><td>162,885</td><td>162,885</td><td>162,885</td><td>162,885</td><td>162,885</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r2</td><td>16</td><td>423</td><td>75,154</td><td>75,154</td><td>75,154</td><td>75,154</td><td>75,154</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r3</td><td>16</td><td>423</td><td>142,514</td><td>142,514</td><td>142,514</td><td>142,514</td><td>142,514</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r4</td><td>16</td><td>424</td><td>155,547</td><td>155,547</td><td>155,547</td><td>155,547</td><td>155,547</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r5</td><td>16</td><td>424</td><td>199,894</td><td>199,894</td><td>199,894</td><td>199,894</td><td>199,894</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r6</td><td>16</td><td>423</td><td>106,046</td><td>106,046</td><td>106,046</td><td>106,046</td><td>106,046</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r7</td><td>16</td><td>424</td><td>151,496</td><td>151,496</td><td>151,496</td><td>151,496</td><td>151,496</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r8</td><td>16</td><td>424</td><td>166,477</td><td>166,477</td><td>166,477</td><td>166,477</td><td>166,477</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r9</td><td>16</td><td>423</td><td>132,308</td><td>132,308</td><td>132,308</td><td>132,308</td><td>132,308</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp.n16.r10</td><td>16</td><td>424</td><td>148,219</td><td>148,219</td><td>148,219</td><td>148,219</td><td>148,219</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r1</td><td>12</td><td>416</td><td>30,095</td><td>30,095</td><td>30,095</td><td>30,095</td><td>30,095</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r2</td><td>12</td><td>423</td><td>31,641</td><td>31,641</td><td>31,641</td><td>31,641</td><td>31,641</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r3</td><td>12</td><td>418</td><td>25,696</td><td>25,696</td><td>25,696</td><td>25,696</td><td>25,696</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r4</td><td>12</td><td>421</td><td>38,025</td><td>38,025</td><td>38,025</td><td>38,025</td><td>38,025</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r5</td><td>12</td><td>415</td><td>32,168</td><td>32,168</td><td>32,168</td><td>32,168</td><td>32,168</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r6</td><td>12</td><td>411</td><td>37,118</td><td>37,118</td><td>37,118</td><td>37,118</td><td>37,118</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r7</td><td>12</td><td>398</td><td>17,228</td><td>17,228</td><td>17,228</td><td>17,228</td><td>17,228</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r8</td><td>12</td><td>424</td><td>31,859</td><td>31,859</td><td>31,859</td><td>31,859</td><td>31,859</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r9</td><td>12</td><td>420</td><td>36,515</td><td>36,515</td><td>36,515</td><td>36,515</td><td>36,515</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n12.r10</td><td>12</td><td>422</td><td>20,956</td><td>20,956</td><td>20,956</td><td>20,956</td><td>20,956</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r1</td><td>14</td><td>421</td><td>68,783</td><td>68,783</td><td>68,783</td><td>68,783</td><td>68,783</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r2</td><td>14</td><td>424</td><td>100,034</td><td>100,034</td><td>100,034</td><td>100,034</td><td>100,034</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r3</td><td>14</td><td>420</td><td>61,664</td><td>61,664</td><td>61,664</td><td>61,664</td><td>61,664</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r4</td><td>14</td><td>424</td><td>69,024</td><td>69,024</td><td>69,024</td><td>69,024</td><td>69,024</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r5</td><td>14</td><td>423</td><td>73,420</td><td>73,420</td><td>73,420</td><td>73,420</td><td>73,420</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r6</td><td>14</td><td>424</td><td>87,875</td><td>87,875</td><td>87,875</td><td>87,875</td><td>87,875</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r7</td><td>14</td><td>424</td><td>108,666</td><td>108,666</td><td>108,666</td><td>108,666</td><td>108,666</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r8</td><td>14</td><td>417</td><td>47,022</td><td>47,022</td><td>47,022</td><td>47,022</td><td>47,022</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r9</td><td>14</td><td>424</td><td>92,262</td><td>92,262</td><td>92,262</td><td>92,262</td><td>92,262</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n14.r10</td><td>14</td><td>423</td><td>73,352</td><td>73,352</td><td>73,352</td><td>73,352</td><td>73,352</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r1</td><td>16</td><td>424</td><td>156,356</td><td>156,356</td><td>156,356</td><td>156,356</td><td>156,356</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r2</td><td>16</td><td>423</td><td>72,071</td><td>72,071</td><td>72,071</td><td>72,071</td><td>72,071</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r3</td><td>16</td><td>423</td><td>138,910</td><td>138,910</td><td>138,910</td><td>138,910</td><td>138,910</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r4</td><td>16</td><td>424</td><td>151,799</td><td>151,799</td><td>151,799</td><td>151,799</td><td>151,799</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r5</td><td>16</td><td>424</td><td>191,049</td><td>191,049</td><td>191,049</td><td>191,049</td><td>191,049</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r6</td><td>16</td><td>423</td><td>101,004</td><td>101,004</td><td>101,004</td><td>101,004</td><td>101,004</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r7</td><td>16</td><td>424</td><td>145,922</td><td>145,922</td><td>145,922</td><td>145,922</td><td>145,922</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r8</td><td>16</td><td>424</td><td>162,312</td><td>162,312</td><td>162,312</td><td>162,312</td><td>162,312</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r9</td><td>16</td><td>423</td><td>127,473</td><td>127,473</td><td>127,473</td><td>127,473</td><td>127,473</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>1kp-bs10.n16.r10</td><td>16</td><td>424</td><td>142,130</td><td>142,130</td><td>142,130</td><td>142,130</td><td>142,130</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r1</td><td>12</td><td>14446</td><td>3,374,563</td><td>3,374,563</td><td>3,374,563</td><td>3,374,563</td><td>3,374,563</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r2</td><td>12</td><td>14446</td><td>2,811,717</td><td>2,811,717</td><td>2,811,717</td><td>2,811,717</td><td>2,811,717</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r3</td><td>12</td><td>14446</td><td>3,767,921</td><td>3,767,921</td><td>3,767,921</td><td>3,767,921</td><td>3,767,921</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r4</td><td>12</td><td>14446</td><td>2,694,607</td><td>2,694,607</td><td>2,694,607</td><td>2,694,607</td><td>2,694,607</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r5</td><td>12</td><td>14446</td><td>3,069,555</td><td>3,069,555</td><td>3,069,555</td><td>3,069,555</td><td>3,069,555</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r6</td><td>12</td><td>14446</td><td>2,858,416</td><td>2,858,416</td><td>2,858,416</td><td>2,858,416</td><td>2,858,416</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r7</td><td>12</td><td>14446</td><td>2,847,261</td><td>2,847,261</td><td>2,847,261</td><td>2,847,261</td><td>2,847,261</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r8</td><td>12</td><td>14446</td><td>2,534,287</td><td>2,534,287</td><td>2,534,287</td><td>2,534,287</td><td>2,534,287</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r9</td><td>12</td><td>14446</td><td>2,822,668</td><td>2,822,668</td><td>2,822,668</td><td>2,822,668</td><td>2,822,668</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n12.r10</td><td>12</td><td>14446</td><td>2,590,670</td><td>2,590,670</td><td>2,590,670</td><td>2,590,670</td><td>2,590,670</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r1</td><td>14</td><td>14446</td><td>6,525,125</td><td>6,525,125</td><td>6,525,125</td><td>6,525,125</td><td>6,525,125</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r2</td><td>14</td><td>14446</td><td>6,322,186</td><td>6,322,186</td><td>6,322,186</td><td>6,322,186</td><td>6,322,186</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r3</td><td>14</td><td>14446</td><td>6,245,800</td><td>6,245,800</td><td>6,245,800</td><td>6,245,800</td><td>6,245,800</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r4</td><td>14</td><td>14446</td><td>5,981,657</td><td>5,981,657</td><td>5,981,657</td><td>5,981,657</td><td>5,981,657</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r5</td><td>14</td><td>14446</td><td>5,846,589</td><td>5,846,589</td><td>5,846,589</td><td>5,846,589</td><td>5,846,589</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r6</td><td>14</td><td>14446</td><td>5,746,440</td><td>5,746,440</td><td>5,746,440</td><td>5,746,440</td><td>5,746,440</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r7</td><td>14</td><td>14446</td><td>6,326,489</td><td>6,326,489</td><td>6,326,489</td><td>6,326,489</td><td>6,326,489</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r8</td><td>14</td><td>14446</td><td>6,481,486</td><td>6,481,486</td><td>6,481,486</td><td>6,481,486</td><td>6,481,486</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r9</td><td>14</td><td>14446</td><td>6,269,891</td><td>6,269,891</td><td>6,269,891</td><td>6,269,891</td><td>6,269,891</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n14.r10</td><td>14</td><td>14446</td><td>6,098,276</td><td>6,098,276</td><td>6,098,276</td><td>6,098,276</td><td>6,098,276</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>avian-tent.n16.r1</td><td>16</td><td>14446</td><td></td><td>9,631,904</td><td>9,631,904</td><td>9,631,904</td><td>9,631,904</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r2</td><td>16</td><td>14446</td><td></td><td>10,576,428</td><td>10,576,428</td><td>10,576,428</td><td>10,576,428</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r3</td><td>16</td><td>14446</td><td></td><td>14,269,076</td><td>14,269,076</td><td>14,269,076</td><td>14,269,076</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r4</td><td>16</td><td>14446</td><td></td><td>11,020,815</td><td>11,020,815</td><td>11,020,815</td><td>11,020,815</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r5</td><td>16</td><td>14446</td><td></td><td>13,676,877</td><td>13,676,877</td><td>13,676,877</td><td>13,676,877</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r6</td><td>16</td><td>14446</td><td></td><td>10,681,268</td><td>10,681,268</td><td>10,681,268</td><td>10,681,268</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r7</td><td>16</td><td>14446</td><td></td><td>12,053,714</td><td>12,053,714</td><td>12,053,714</td><td>12,053,714</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r8</td><td>16</td><td>14446</td><td></td><td>11,079,484</td><td>11,079,484</td><td>11,079,484</td><td>11,079,484</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r9</td><td>16</td><td>14446</td><td></td><td>13,160,600</td><td>13,160,600</td><td>13,160,600</td><td>13,160,600</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent.n16.r10</td><td>16</td><td>14446</td><td></td><td>13,316,547</td><td>13,316,547</td><td>13,316,547</td><td>13,316,547</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>angiosperms.n12.r1</td><td>12</td><td>309</td><td>34,262</td><td>34,262</td><td>34,262</td><td>34,262</td><td>34,262</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r2</td><td>12</td><td>296</td><td>24,699</td><td>24,699</td><td>24,699</td><td>24,699</td><td>24,699</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r3</td><td>12</td><td>309</td><td>35,768</td><td>35,768</td><td>35,768</td><td>35,768</td><td>35,768</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r4</td><td>12</td><td>308</td><td>34,900</td><td>34,900</td><td>34,900</td><td>34,900</td><td>34,900</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r5</td><td>12</td><td>308</td><td>37,086</td><td>37,086</td><td>37,086</td><td>37,086</td><td>37,086</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r6</td><td>12</td><td>309</td><td>50,188</td><td>50,188</td><td>50,188</td><td>50,188</td><td>50,188</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r7</td><td>12</td><td>307</td><td>35,901</td><td>35,901</td><td>35,901</td><td>35,901</td><td>35,901</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r8</td><td>12</td><td>310</td><td>41,891</td><td>41,891</td><td>41,891</td><td>41,891</td><td>41,891</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r9</td><td>12</td><td>310</td><td>39,702</td><td>39,702</td><td>39,702</td><td>39,702</td><td>39,702</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n12.r10</td><td>12</td><td>310</td><td>49,088</td><td>49,088</td><td>49,088</td><td>49,088</td><td>49,088</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r1</td><td>14</td><td>310</td><td>94,689</td><td>94,689</td><td>94,689</td><td>94,689</td><td>94,689</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r2</td><td>14</td><td>310</td><td>50,168</td><td>50,168</td><td>50,168</td><td>50,168</td><td>50,168</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r3</td><td>14</td><td>310</td><td>94,534</td><td>94,534</td><td>94,534</td><td>94,534</td><td>94,534</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r4</td><td>14</td><td>310</td><td>119,520</td><td>119,520</td><td>119,520</td><td>119,520</td><td>119,520</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r5</td><td>14</td><td>309</td><td>75,661</td><td>75,661</td><td>75,661</td><td>75,661</td><td>75,661</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r6</td><td>14</td><td>310</td><td>65,084</td><td>65,084</td><td>65,084</td><td>65,084</td><td>65,084</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r7</td><td>14</td><td>310</td><td>50,820</td><td>50,820</td><td>50,820</td><td>50,820</td><td>50,820</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r8</td><td>14</td><td>310</td><td>111,535</td><td>111,535</td><td>111,535</td><td>111,535</td><td>111,535</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r9</td><td>14</td><td>310</td><td>91,090</td><td>91,090</td><td>91,090</td><td>91,090</td><td>91,090</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n14.r10</td><td>14</td><td>310</td><td>61,057</td><td>61,057</td><td>61,057</td><td>61,057</td><td>61,057</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r1</td><td>16</td><td>310</td><td>129,930</td><td>129,930</td><td>129,930</td><td>129,930</td><td>129,930</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r2</td><td>16</td><td>310</td><td>140,301</td><td>140,301</td><td>140,301</td><td>140,301</td><td>140,301</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r3</td><td>16</td><td>310</td><td>123,766</td><td>123,766</td><td>123,766</td><td>123,766</td><td>123,766</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r4</td><td>16</td><td>310</td><td>105,147</td><td>105,147</td><td>105,147</td><td>105,147</td><td>105,147</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r5</td><td>16</td><td>310</td><td>65,626</td><td>65,626</td><td>65,626</td><td>65,626</td><td>65,626</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r6</td><td>16</td><td>310</td><td>102,659</td><td>102,659</td><td>102,659</td><td>102,659</td><td>102,659</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r7</td><td>16</td><td>310</td><td>123,596</td><td>123,596</td><td>123,596</td><td>123,596</td><td>123,596</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r8</td><td>16</td><td>310</td><td>95,014</td><td>95,014</td><td>95,014</td><td>95,014</td><td>95,014</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r9</td><td>16</td><td>310</td><td>116,431</td><td>116,431</td><td>116,431</td><td>116,431</td><td>116,431</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+<tr><td>angiosperms.n16.r10</td><td>16</td><td>308</td><td>87,573</td><td>87,573</td><td>87,573</td><td>87,573</td><td>87,573</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td>ASTRAL-III yes, ASTRAL-IV yes, warm yes, cold yes</td></tr>
+</table>
+<p>Datasets won, tied and lost by each track against each ASTRAL (best run of each):</p>
+<table><tr><th>comparison</th><th>BEAT</th><th>TIE</th><th>BEHIND</th></tr>
+<tr><td>cold vs ASTRAL-III</td><td>1</td><td>151</td><td>0</td></tr>
+<tr><td>cold vs ASTRAL-IV</td><td>0</td><td>152</td><td>0</td></tr>
+<tr><td>warm vs ASTRAL-III</td><td>1</td><td>151</td><td>0</td></tr>
+<tr><td>warm vs ASTRAL-IV</td><td>0</td><td>152</td><td>0</td></tr>
+</table>
+<h2>2. Subsampled datasets with known optimum</h2>
+<p>Each cell counts the instances where that method&#x27;s best run reached the exact optimum.</p>
+<table><tr><th>group</th><th>instances</th><th>with exact optimum</th><th>ASTRAL-III optimal</th><th>ASTRAL-IV optimal</th><th>ours warm optimal</th><th>ours cold optimal</th><th>instances where we beat both ASTRALs</th></tr>
+<tr><td>1kp, 12 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>1kp, 14 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>1kp, 16 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>1kp-bs10, 12 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>1kp-bs10, 14 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>1kp-bs10, 16 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>angiosperms, 12 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>angiosperms, 14 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>angiosperms, 16 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>avian-tent, 12 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>avian-tent, 14 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>avian-tent, 16 taxa</td><td>10</td><td>0</td><td></td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>mammals, 12 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>mammals, 14 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+<tr><td>mammals, 16 taxa</td><td>10</td><td>10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>10 / 10</td><td>0</td></tr>
+</table>
+<h2>3. Methods across all datasets</h2>
+<p>One row per method. W/T/L compares the method&#x27;s best run on each dataset with the better ASTRAL. Gap is the average shortfall from the best score any method found, over all runs. Optimal counts runs on datasets with a known optimum.</p>
+<table><tr><th>track</th><th>method</th><th>datasets</th><th>runs</th><th>W / T / L vs ASTRAL</th><th>runs &gt;= ASTRAL</th><th>runs optimal</th><th>mean gap to best</th><th>median time to best</th><th>median run time</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>152</td><td>447</td><td>0 / 151 / 1</td><td>444 / 447</td><td>423 / 426</td><td>0.0029%</td><td></td><td>1.02 s</td></tr>
+<tr><td>baseline</td><td>ASTRAL-III exact</td><td>142</td><td>142</td><td>0 / 142 / 0</td><td>142 / 142</td><td>142 / 142</td><td>0.0000%</td><td></td><td>53 s</td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>152</td><td>456</td><td>0 / 152 / 0</td><td>455 / 456</td><td>425 / 426</td><td>0.0009%</td><td></td><td>0.30 s</td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>152</td><td>152</td><td>0 / 152 / 0</td><td>152 / 152</td><td>142 / 142</td><td>0.0000%</td><td></td><td>1.16 s</td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>9.02 s</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>757 / 760</td><td>707 / 710</td><td>0.0004%</td><td>0.00 s</td><td>0.00 s</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>warm</td><td>pairswap-best / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>warm</td><td>pairswap-first / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>warm</td><td>reorient / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>warm</td><td>tabu / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>anneal / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.45 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>anneal / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.02 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.41 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.03 s</td><td>9.02 s</td></tr>
+<tr><td>cold</td><td>dp / bestrandom</td><td>152</td><td>760</td><td>0 / 0 / 152</td><td>0 / 760</td><td>0 / 710</td><td>23.6027%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>dp / caterpillar</td><td>152</td><td>152</td><td>0 / 73 / 79</td><td>73 / 152</td><td>70 / 142</td><td>1.1322%</td><td>0.00 s</td><td>0.00 s</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>152</td><td>152</td><td>0 / 135 / 17</td><td>135 / 152</td><td>128 / 142</td><td>0.0209%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>152</td><td>760</td><td>0 / 76 / 76</td><td>149 / 760</td><td>149 / 710</td><td>5.4882%</td><td>0.00 s</td><td>0.00 s</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>152</td><td>760</td><td>0 / 150 / 2</td><td>653 / 760</td><td>626 / 710</td><td>0.0284%</td><td>0.00 s</td><td>0.00 s</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>152</td><td>760</td><td>0 / 0 / 152</td><td>0 / 760</td><td>0 / 710</td><td>42.9083%</td><td>0.00 s</td><td>0.00 s</td></tr>
+<tr><td>cold</td><td>ils / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>ils / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / bestrandom</td><td>152</td><td>760</td><td>0 / 151 / 1</td><td>715 / 760</td><td>681 / 710</td><td>0.1040%</td><td>0.01 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>719 / 760</td><td>681 / 710</td><td>0.0268%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>752 / 760</td><td>707 / 710</td><td>0.0012%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>694 / 760</td><td>657 / 710</td><td>0.1557%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>745 / 760</td><td>701 / 710</td><td>0.0041%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-best / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>706 / 760</td><td>669 / 710</td><td>0.1227%</td><td>0.01 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>685 / 760</td><td>651 / 710</td><td>0.1480%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>710 / 760</td><td>678 / 710</td><td>0.0296%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>752 / 760</td><td>707 / 710</td><td>0.0017%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>692 / 760</td><td>658 / 710</td><td>0.1667%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>746 / 760</td><td>702 / 710</td><td>0.0036%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>pairswap-first / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>671 / 760</td><td>639 / 710</td><td>0.2295%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>756 / 760</td><td>707 / 710</td><td>0.0011%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>758 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / distance</td><td>152</td><td>760</td><td>0 / 151 / 1</td><td>754 / 760</td><td>709 / 710</td><td>0.0006%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>754 / 760</td><td>708 / 710</td><td>0.0001%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>755 / 760</td><td>707 / 710</td><td>0.0006%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>reorient / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>756 / 760</td><td>709 / 710</td><td>0.0005%</td><td>0.00 s</td><td>0.01 s</td></tr>
+<tr><td>cold</td><td>tabu / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>743 / 760</td><td>698 / 710</td><td>0.0940%</td><td>0.01 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>tabu / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>748 / 760</td><td>701 / 710</td><td>0.0103%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>tabu / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>757 / 760</td><td>708 / 710</td><td>0.0008%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>tabu / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>744 / 760</td><td>697 / 710</td><td>0.0474%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>tabu / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>752 / 760</td><td>706 / 710</td><td>0.0014%</td><td>0.00 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>tabu / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>744 / 760</td><td>699 / 710</td><td>0.0605%</td><td>0.01 s</td><td>10 s</td></tr>
+<tr><td>cold</td><td>vnd / bestrandom</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>759 / 760</td><td>709 / 710</td><td>0.0005%</td><td>0.00 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>vnd / caterpillar</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.03 s</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>760 / 760</td><td>710 / 710</td><td>0.0000%</td><td>0.00 s</td><td>0.02 s</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>152</td><td>760</td><td>0 / 152 / 0</td><td>759 / 760</td><td>709 / 710</td><td>0.0005%</td><td>0.00 s</td><td>0.02 s</td></tr>
+</table>
+<h2>4. Detail per dataset</h2>
+<p>sim14: 14 taxa, 10 gene trees. Best known score 4,812; better ASTRAL 4,812; exact optimum 4,812.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>4,803</td><td>4,792</td><td>4,779</td><td></td><td></td><td>0.51 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-III exact</td><td>1</td><td>4,812</td><td>4,812</td><td>4,812</td><td></td><td></td><td>7.16 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>4,812</td><td>4,812</td><td>4,793</td><td></td><td></td><td>0.02 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>1</td><td>4,812</td><td>4,812</td><td>4,812</td><td></td><td></td><td>0.05 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.06 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>5</td><td>4,812</td><td>4,807</td><td>4,807</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>warm</td><td>pairswap-best / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>warm</td><td>pairswap-first / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>warm</td><td>reorient / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>warm</td><td>tabu / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.63 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>1.24 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.29 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.81 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.70 s</td><td>9.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.17 s</td><td>9.02 s</td><td>4</td></tr>
+<tr><td>cold</td><td>dp / bestrandom</td><td>5</td><td>4,558</td><td>4,282</td><td>4,174</td><td class='BEHIND'>BEHIND -254</td><td>0.00 s</td><td>0.01 s</td><td>14</td></tr>
+<tr><td>cold</td><td>dp / caterpillar</td><td>1</td><td>4,807</td><td>4,807</td><td>4,807</td><td class='BEHIND'>BEHIND -5</td><td>0.00 s</td><td>0.00 s</td><td>2</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>4,726</td><td>4,726</td><td>4,726</td><td class='BEHIND'>BEHIND -86</td><td>0.00 s</td><td>0.00 s</td><td>14</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>5</td><td>4,441</td><td>4,346</td><td>4,245</td><td class='BEHIND'>BEHIND -371</td><td>0.00 s</td><td>0.00 s</td><td>20</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>5</td><td>4,792</td><td>4,781</td><td>4,747</td><td class='BEHIND'>BEHIND -20</td><td>0.00 s</td><td>0.00 s</td><td>8</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>5</td><td>3,999</td><td>3,774</td><td>3,492</td><td class='BEHIND'>BEHIND -813</td><td>0.00 s</td><td>0.00 s</td><td>18</td></tr>
+<tr><td>cold</td><td>ils / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>ils / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,788</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-best / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,782</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>pairswap-first / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,792</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>reorient / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.01 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.01 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.02 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.01 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>tabu / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.02 s</td><td>10 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / bestrandom</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / caterpillar</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>5</td><td>4,812</td><td>4,812</td><td>4,812</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>5</td><td>4,812</td><td>4,812</td><td>4,793</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.03 s</td><td>4</td></tr>
+</table>
+<p>primates: 14 taxa, 424 gene trees. Best known score 389,734; better ASTRAL 389,734; exact optimum 389,734.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>389,734</td><td>389,734</td><td>389,734</td><td></td><td></td><td>0.95 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-III exact</td><td>1</td><td>389,734</td><td>389,734</td><td>389,734</td><td></td><td></td><td>12 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>389,734</td><td>389,734</td><td>389,734</td><td></td><td></td><td>0.51 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>1</td><td>389,734</td><td>389,734</td><td>389,734</td><td></td><td></td><td>2.01 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>warm</td><td>pairswap-best / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>warm</td><td>pairswap-first / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>warm</td><td>reorient / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>warm</td><td>tabu / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.74 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.01 s</td><td>9.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / bestrandom</td><td>5</td><td>300,934</td><td>273,508</td><td>244,895</td><td class='BEHIND'>BEHIND -88,800</td><td>0.00 s</td><td>0.01 s</td><td>20</td></tr>
+<tr><td>cold</td><td>dp / caterpillar</td><td>1</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>332,157</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>5</td><td>226,566</td><td>187,998</td><td>164,326</td><td class='BEHIND'>BEHIND -163,168</td><td>0.00 s</td><td>0.00 s</td><td>18</td></tr>
+<tr><td>cold</td><td>ils / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>359,134</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-best / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>359,134</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>pairswap-first / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.00 s</td><td>0</td></tr>
+<tr><td>cold</td><td>reorient / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.01 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>tabu / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.01 s</td><td>10 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / bestrandom</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / caterpillar</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>5</td><td>389,734</td><td>389,734</td><td>389,734</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+</table>
+<h2>5. Checks</h2>
+<p>All scorers agree, no result exceeds an exact optimum, and every run finished.</p>
+</body></html>

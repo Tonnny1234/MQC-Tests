@@ -9,8 +9,13 @@ ext/
 data/*
 !data/README.md
 
-# produced by runs
-results/
+# produced by runs - keep only the summaries, not the per-run files
+results/*
+!results/*/
+results/*/*
+!results/*/report.md
+!results/*/report.html
+!results/*/results.csv
 work/
 tasks/
 logs/
