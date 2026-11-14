@@ -1,0 +1,23 @@
+{
+  "name": "preview",
+  "comment": "A 5-10 minute slice of stage A: small random subsets of two real datasets, with exact optima.",
+  "datasets": [
+    {"name": "sim14",   "genes": "ext/ASTRAL/Astral/test_data/simulated_14taxon.gene.tre"},
+    {"name": "mammals", "genes": "ext/ASTRAL/Astral/test_data/song_mammals.424.gene.tre", "subsets_only": true},
+    {"name": "1kp",     "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees.tre",         "subsets_only": true}
+  ],
+  "subsets": {"from": ["mammals", "1kp"], "sizes": [12, 14], "replicates": 3},
+  "exact_max_taxa": 14,
+  "exact_timeout": 900,
+  "baselines": [
+    {"method": "astral3", "seeds": [1, 2]},
+    {"method": "astral4", "seeds": [1, 2]}
+  ],
+  "search": {
+    "strategies": ["dp", "pairswap-first", "vnd", "anneal"],
+    "warm": ["astral3"],
+    "cold": ["random", "greedy", "caterpillar"],
+    "seeds": [1, 2],
+    "time": 3
+  }
+}

@@ -1,0 +1,19 @@
+
+# compiled engine
+bin/
+
+# third-party software; setup.sh downloads it at pinned commits
+ext/
+
+# published datasets from Dryad - see data/README.md for where to get them
+data/*
+!data/README.md
+
+# produced by runs
+results/
+work/
+tasks/
+logs/
+
+__pycache__/
+*.pyc

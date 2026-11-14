@@ -1,0 +1,21 @@
+{
+  "name": "smoke",
+  "comment": "Five-minute end-to-end check on two tiny datasets shipped with ASTRAL.",
+  "datasets": [
+    {"name": "sim14", "genes": "ext/ASTRAL/Astral/test_data/simulated_14taxon.gene.tre"},
+    {"name": "primates", "genes": "ext/ASTRAL/Astral/test_data/song_primates.424.gene.tre"}
+  ],
+  "exact_max_taxa": 14,
+  "exact_timeout": 900,
+  "baselines": [
+    {"method": "astral3", "seeds": [1]},
+    {"method": "astral4", "seeds": [1, 2]}
+  ],
+  "search": {
+    "strategies": ["dp", "pairswap-first", "vnd"],
+    "warm": ["astral3"],
+    "cold": ["random", "greedy", "caterpillar"],
+    "seeds": [1, 2],
+    "time": 20
+  }
+}

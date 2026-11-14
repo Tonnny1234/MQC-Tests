@@ -1,0 +1,30 @@
+{
+  "name": "stageA",
+  "comment": "Small instances with a known exact optimum: two 14-taxon sets plus random taxon subsets of the real datasets. Use it to rank the heuristics.",
+  "datasets": [
+    {"name": "sim14",       "genes": "ext/ASTRAL/Astral/test_data/simulated_14taxon.gene.tre"},
+    {"name": "primates",    "genes": "ext/ASTRAL/Astral/test_data/song_primates.424.gene.tre"},
+    {"name": "mammals",     "genes": "ext/ASTRAL/Astral/test_data/song_mammals.424.gene.tre", "subsets_only": true},
+    {"name": "1kp",         "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees.tre",         "subsets_only": true},
+    {"name": "1kp-bs10",    "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees-BS10.tre",    "subsets_only": true},
+    {"name": "avian-tent",  "genes": "data/avian_tent.tre",  "subsets_only": true},
+    {"name": "avian-uce",   "genes": "data/avian_uce.tre",   "subsets_only": true},
+    {"name": "angiosperms", "genes": "data/angiosperms.tre", "subsets_only": true}
+  ],
+  "subsets": {"from": ["mammals", "1kp", "1kp-bs10", "avian-tent", "avian-uce", "angiosperms"], "sizes": [12, 14, 16], "replicates": 10},
+  "exact_max_taxa": 16,
+  "exact_timeout": 3600,
+  "java_mem": "3g",
+  "baselines": [
+    {"method": "astral3",   "seeds": [1, 2, 3]},
+    {"method": "astral4",   "seeds": [1, 2, 3]},
+    {"method": "astral4-R", "seeds": [1]}
+  ],
+  "search": {
+    "strategies": ["dp", "reorient", "pairswap-first", "pairswap-best", "vnd", "anneal", "ils", "tabu", "multistart"],
+    "warm": ["astral3"],
+    "cold": ["random", "genetree", "distance", "caterpillar", "greedy", "bestrandom"],
+    "seeds": [1, 2, 3, 4, 5],
+    "time": 10
+  }
+}
