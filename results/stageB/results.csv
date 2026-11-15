@@ -1,0 +1,390 @@
+dataset,kind,track,method,strategy,start,seed,score,start_score,elapsed,time_to_best,finished,converged,reported,astral_q,tree
+mammals,baseline,baseline,ASTRAL-III,,,1,25526915,,3.1743862628936768,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral3.s1.tre
+mammals,baseline,baseline,ASTRAL-III,,,2,25526915,,2.8583409786224365,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral3.s2.tre
+mammals,baseline,baseline,ASTRAL-III,,,3,25526915,,2.6469428539276123,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral3.s3.tre
+mammals,baseline,baseline,ASTRAL-IV -R,,,1,25526915,,43.1037540435791,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral4-R.s1.tre
+mammals,baseline,baseline,ASTRAL-IV -R,,,2,25526915,,32.74448847770691,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral4-R.s2.tre
+mammals,baseline,baseline,ASTRAL-IV,,,1,25526915,,10.144622802734375,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral4.s1.tre
+mammals,baseline,baseline,ASTRAL-IV,,,2,25526915,,9.223856925964355,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral4.s2.tre
+mammals,baseline,baseline,ASTRAL-IV,,,3,25526915,,10.34443974494934,,True,True,25526915,,/u/tony6/mqc-bench/results/stageB/mammals/baseline/astral4.s3.tre
+mammals,search,warm,anneal / astral3,anneal,astral3,1,25526915,25526915,3246.372841,0.002476544,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral3__s1.tre
+mammals,search,warm,anneal / astral3,anneal,astral3,2,25526915,25526915,3246.400647,0.001372775,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral3__s2.tre
+mammals,search,warm,anneal / astral3,anneal,astral3,3,25526915,25526915,3246.371357,0.002943573,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral3__s3.tre
+mammals,search,warm,anneal / astral4,anneal,astral4,1,25526915,25526915,3246.433246,0.002513945,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral4__s1.tre
+mammals,search,warm,anneal / astral4,anneal,astral4,2,25526915,25526915,3245.650367,0.0028546,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral4__s2.tre
+mammals,search,warm,anneal / astral4,anneal,astral4,3,25526915,25526915,3245.758155,0.002568695,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__astral4__s3.tre
+mammals,search,cold,anneal / distance,anneal,distance,1,25526915,25526915,3245.903711,0.011328448,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__distance__s1.tre
+mammals,search,cold,anneal / distance,anneal,distance,2,25526915,25526915,3245.66897,0.011555554,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__distance__s2.tre
+mammals,search,cold,anneal / distance,anneal,distance,3,25526915,25526915,3245.728096,0.0113509,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__distance__s3.tre
+mammals,search,cold,anneal / genetree,anneal,genetree,1,25526915,25521518,3245.634865,2108.303051,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__genetree__s1.tre
+mammals,search,cold,anneal / genetree,anneal,genetree,2,25526915,25483609,3245.680214,1867.245997,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__genetree__s2.tre
+mammals,search,cold,anneal / genetree,anneal,genetree,3,25526915,25237635,3245.389538,1888.665644,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__genetree__s3.tre
+mammals,search,cold,anneal / greedy,anneal,greedy,1,25526915,25526915,3245.717365,0.001571671,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__greedy__s1.tre
+mammals,search,cold,anneal / greedy,anneal,greedy,2,25526915,25526915,3245.780568,0.001657949,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__greedy__s2.tre
+mammals,search,cold,anneal / greedy,anneal,greedy,3,25526915,25526915,3245.818042,0.001617436,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__greedy__s3.tre
+mammals,search,cold,anneal / random,anneal,random,1,25526915,10586976,3245.811592,629.1677178,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__random__s1.tre
+mammals,search,cold,anneal / random,anneal,random,2,25526915,11004014,3245.557061,843.1311341,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__random__s2.tre
+mammals,search,cold,anneal / random,anneal,random,3,25526915,11378547,3245.6432,1088.230057,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/anneal__random__s3.tre
+mammals,search,warm,dp / astral3,dp,astral3,1,25526915,25526915,0.007254027,0.002277466,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral3__s1.tre
+mammals,search,warm,dp / astral3,dp,astral3,2,25526915,25526915,0.006892289,0.002411909,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral3__s2.tre
+mammals,search,warm,dp / astral3,dp,astral3,3,25526915,25526915,0.005310091,0.001513613,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral3__s3.tre
+mammals,search,warm,dp / astral4,dp,astral4,1,25526915,25526915,0.012288122,0.002481294,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral4__s1.tre
+mammals,search,warm,dp / astral4,dp,astral4,2,25526915,25526915,0.006016123,0.001451055,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral4__s2.tre
+mammals,search,warm,dp / astral4,dp,astral4,3,25526915,25526915,0.007539484,0.001559316,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__astral4__s3.tre
+mammals,search,cold,dp / distance,dp,distance,1,25526915,25526915,0.015237378,0.011305718,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__distance__s1.tre
+mammals,search,cold,dp / genetree,dp,genetree,1,25521518,25521518,0.008149069,0.001351622,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__genetree__s1.tre
+mammals,search,cold,dp / genetree,dp,genetree,2,25483609,25483609,0.00522766,0.001401847,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__genetree__s2.tre
+mammals,search,cold,dp / genetree,dp,genetree,3,25237635,25237635,0.009810563,0.001327369,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__genetree__s3.tre
+mammals,search,cold,dp / greedy,dp,greedy,1,25526915,25526915,0.007152038,0.001636753,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__greedy__s1.tre
+mammals,search,cold,dp / greedy,dp,greedy,2,25526915,25526915,0.006035144,0.001616239,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__greedy__s2.tre
+mammals,search,cold,dp / greedy,dp,greedy,3,25526915,25526915,0.005725899,0.001576139,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__greedy__s3.tre
+mammals,search,cold,dp / random,dp,random,1,10586976,10586976,0.005359839,0.001074286,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__random__s1.tre
+mammals,search,cold,dp / random,dp,random,2,11004014,11004014,0.00531157,0.001111178,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__random__s2.tre
+mammals,search,cold,dp / random,dp,random,3,11378547,11378547,0.007094897,0.001160874,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/dp__random__s3.tre
+mammals,search,warm,ils / astral3,ils,astral3,1,25526915,25526915,3600.005392,0.001680196,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral3__s1.tre
+mammals,search,warm,ils / astral3,ils,astral3,2,25526915,25526915,3600.00577,0.00216123,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral3__s2.tre
+mammals,search,warm,ils / astral3,ils,astral3,3,25526915,25526915,3600.008785,0.002686928,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral3__s3.tre
+mammals,search,warm,ils / astral4,ils,astral4,1,25526915,25526915,3600.006646,0.001286375,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral4__s1.tre
+mammals,search,warm,ils / astral4,ils,astral4,2,25526915,25526915,3600.010569,0.002491662,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral4__s2.tre
+mammals,search,warm,ils / astral4,ils,astral4,3,25526915,25526915,3600.011918,0.002226558,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__astral4__s3.tre
+mammals,search,cold,ils / distance,ils,distance,1,25526915,25526915,3600.007867,0.011366178,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__distance__s1.tre
+mammals,search,cold,ils / distance,ils,distance,2,25526915,25526915,3600.009473,0.011396023,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__distance__s2.tre
+mammals,search,cold,ils / distance,ils,distance,3,25526915,25526915,3600.008833,0.011395008,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__distance__s3.tre
+mammals,search,cold,ils / genetree,ils,genetree,1,25526915,25521518,3600.006926,0.010946756,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__genetree__s1.tre
+mammals,search,cold,ils / genetree,ils,genetree,2,25526915,25483609,3600.006996,0.02370215,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__genetree__s2.tre
+mammals,search,cold,ils / genetree,ils,genetree,3,25526915,25237635,3600.006067,0.062850193,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__genetree__s3.tre
+mammals,search,cold,ils / greedy,ils,greedy,1,25526915,25526915,3600.011592,0.001579134,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__greedy__s1.tre
+mammals,search,cold,ils / greedy,ils,greedy,2,25526915,25526915,3600.00585,0.001620699,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__greedy__s2.tre
+mammals,search,cold,ils / greedy,ils,greedy,3,25526915,25526915,3600.008071,0.001551756,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__greedy__s3.tre
+mammals,search,cold,ils / random,ils,random,1,25526915,10586976,3600.005658,0.094389911,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__random__s1.tre
+mammals,search,cold,ils / random,ils,random,2,25526915,11004014,3600.005599,0.108121651,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__random__s2.tre
+mammals,search,cold,ils / random,ils,random,3,25526915,11378547,3600.024387,0.112185361,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/ils__random__s3.tre
+mammals,search,warm,multistart / astral3,multistart,astral3,1,25526915,25526915,3600.017823,0.001271935,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral3__s1.tre
+mammals,search,warm,multistart / astral3,multistart,astral3,2,25526915,25526915,3600.009914,0.00230485,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral3__s2.tre
+mammals,search,warm,multistart / astral3,multistart,astral3,3,25526915,25526915,3600.026277,0.001249566,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral3__s3.tre
+mammals,search,warm,multistart / astral4,multistart,astral4,1,25526915,25526915,3600.026695,0.001280508,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral4__s1.tre
+mammals,search,warm,multistart / astral4,multistart,astral4,2,25526915,25526915,3600.01409,0.001271397,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral4__s2.tre
+mammals,search,warm,multistart / astral4,multistart,astral4,3,25526915,25526915,3600.007993,0.00209967,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__astral4__s3.tre
+mammals,search,cold,multistart / distance,multistart,distance,1,25526915,25526915,3600.02289,0.011428679,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__distance__s1.tre
+mammals,search,cold,multistart / distance,multistart,distance,2,25526915,25526915,3600.007957,0.012478288,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__distance__s2.tre
+mammals,search,cold,multistart / distance,multistart,distance,3,25526915,25526915,3600.007026,0.012479711,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__distance__s3.tre
+mammals,search,cold,multistart / genetree,multistart,genetree,1,25526915,25521518,3600.007098,0.012848469,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__genetree__s1.tre
+mammals,search,cold,multistart / genetree,multistart,genetree,2,25526915,25483609,3600.007857,0.023123121,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__genetree__s2.tre
+mammals,search,cold,multistart / genetree,multistart,genetree,3,25526915,25237635,3600.00741,0.062085051,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__genetree__s3.tre
+mammals,search,cold,multistart / greedy,multistart,greedy,1,25526915,25526915,3600.011565,0.002126715,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__greedy__s1.tre
+mammals,search,cold,multistart / greedy,multistart,greedy,2,25526915,25526915,3600.00954,0.001973771,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__greedy__s2.tre
+mammals,search,cold,multistart / greedy,multistart,greedy,3,25526915,25526915,3600.008761,0.0029575,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__greedy__s3.tre
+mammals,search,cold,multistart / random,multistart,random,1,25526915,10586976,3600.00806,0.095628012,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__random__s1.tre
+mammals,search,cold,multistart / random,multistart,random,2,25526915,11004014,3600.005951,0.104266939,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__random__s2.tre
+mammals,search,cold,multistart / random,multistart,random,3,25526915,11378547,3600.005144,0.113281606,True,False,,,/u/tony6/mqc-bench/results/stageB/mammals/search/multistart__random__s3.tre
+mammals,search,warm,vnd / astral3,vnd,astral3,1,25526915,25526915,5.223328511,0.00348977,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral3__s1.tre
+mammals,search,warm,vnd / astral3,vnd,astral3,2,25526915,25526915,5.301769136,0.001255629,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral3__s2.tre
+mammals,search,warm,vnd / astral3,vnd,astral3,3,25526915,25526915,5.282453361,0.001576439,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral3__s3.tre
+mammals,search,warm,vnd / astral4,vnd,astral4,1,25526915,25526915,5.372789367,0.001448487,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral4__s1.tre
+mammals,search,warm,vnd / astral4,vnd,astral4,2,25526915,25526915,5.229017361,0.001506995,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral4__s2.tre
+mammals,search,warm,vnd / astral4,vnd,astral4,3,25526915,25526915,5.93442372,0.001857054,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__astral4__s3.tre
+mammals,search,cold,vnd / distance,vnd,distance,1,25526915,25526915,5.4170516,0.011345655,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__distance__s1.tre
+mammals,search,cold,vnd / distance,vnd,distance,2,25526915,25526915,5.341830142,0.011348549,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__distance__s2.tre
+mammals,search,cold,vnd / distance,vnd,distance,3,25526915,25526915,5.296944862,0.0113607,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__distance__s3.tre
+mammals,search,cold,vnd / genetree,vnd,genetree,1,25526915,25521518,5.302749236,0.010627976,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__genetree__s1.tre
+mammals,search,cold,vnd / genetree,vnd,genetree,2,25526915,25483609,5.36547265,0.023019834,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__genetree__s2.tre
+mammals,search,cold,vnd / genetree,vnd,genetree,3,25526915,25237635,5.358817922,0.062645071,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__genetree__s3.tre
+mammals,search,cold,vnd / greedy,vnd,greedy,1,25526915,25526915,5.265096229,0.001533682,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__greedy__s1.tre
+mammals,search,cold,vnd / greedy,vnd,greedy,2,25526915,25526915,5.255530869,0.001624866,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__greedy__s2.tre
+mammals,search,cold,vnd / greedy,vnd,greedy,3,25526915,25526915,5.231890082,0.001668983,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__greedy__s3.tre
+mammals,search,cold,vnd / random,vnd,random,1,25526915,10586976,5.312959986,0.093534567,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__random__s1.tre
+mammals,search,cold,vnd / random,vnd,random,2,25526915,11004014,6.80881745,0.131091675,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__random__s2.tre
+mammals,search,cold,vnd / random,vnd,random,3,25526915,11378547,6.470858883,0.128896718,True,True,,,/u/tony6/mqc-bench/results/stageB/mammals/search/vnd__random__s3.tre
+angiosperms,baseline,baseline,ASTRAL-III,,,1,11553053,,4.995593070983887,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral3.s1.tre
+angiosperms,baseline,baseline,ASTRAL-III,,,2,11553053,,5.15411114692688,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral3.s2.tre
+angiosperms,baseline,baseline,ASTRAL-III,,,3,11553053,,5.1800150871276855,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral3.s3.tre
+angiosperms,baseline,baseline,ASTRAL-IV -R,,,1,11553053,,22.812698125839233,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral4-R.s1.tre
+angiosperms,baseline,baseline,ASTRAL-IV -R,,,2,11553053,,22.101682424545288,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral4-R.s2.tre
+angiosperms,baseline,baseline,ASTRAL-IV,,,1,11553053,,5.426945924758911,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral4.s1.tre
+angiosperms,baseline,baseline,ASTRAL-IV,,,2,11553053,,5.490192651748657,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral4.s2.tre
+angiosperms,baseline,baseline,ASTRAL-IV,,,3,11553053,,5.5170793533325195,,True,True,11553053,,/u/tony6/mqc-bench/results/stageB/angiosperms/baseline/astral4.s3.tre
+angiosperms,search,warm,anneal / astral3,anneal,astral3,1,11553053,11553053,3264.843144,0.002898239,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral3__s1.tre
+angiosperms,search,warm,anneal / astral3,anneal,astral3,2,11553053,11553053,3265.168422,0.003057769,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral3__s2.tre
+angiosperms,search,warm,anneal / astral3,anneal,astral3,3,11553053,11553053,3266.16108,0.002589324,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral3__s3.tre
+angiosperms,search,warm,anneal / astral4,anneal,astral4,1,11553053,11553053,3262.951435,0.005000807,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral4__s1.tre
+angiosperms,search,warm,anneal / astral4,anneal,astral4,2,11553053,11553053,3261.546669,0.004667074,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral4__s2.tre
+angiosperms,search,warm,anneal / astral4,anneal,astral4,3,11553053,11553053,3263.741848,0.003071655,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__astral4__s3.tre
+angiosperms,search,cold,anneal / distance,anneal,distance,1,11553053,11546946,3262.500054,2511.494839,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__distance__s1.tre
+angiosperms,search,cold,anneal / distance,anneal,distance,2,11553053,11529891,3263.781771,2383.0642,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__distance__s2.tre
+angiosperms,search,cold,anneal / distance,anneal,distance,3,11553053,11551299,3261.813683,2339.076264,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__distance__s3.tre
+angiosperms,search,cold,anneal / genetree,anneal,genetree,1,11553053,10716757,3262.498084,2372.722952,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__genetree__s1.tre
+angiosperms,search,cold,anneal / genetree,anneal,genetree,2,11553053,10610337,3268.550578,2328.119954,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__genetree__s2.tre
+angiosperms,search,cold,anneal / genetree,anneal,genetree,3,11553053,10875137,3261.33459,2420.391015,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__genetree__s3.tre
+angiosperms,search,cold,anneal / greedy,anneal,greedy,1,11553053,11542011,3261.939068,2604.089024,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__greedy__s1.tre
+angiosperms,search,cold,anneal / greedy,anneal,greedy,2,11553053,11551299,3261.261984,2584.3098,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__greedy__s2.tre
+angiosperms,search,cold,anneal / greedy,anneal,greedy,3,11553053,11553053,3261.962977,0.004175478,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__greedy__s3.tre
+angiosperms,search,cold,anneal / random,anneal,random,1,11553053,5338288,3270.89407,1486.729955,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__random__s1.tre
+angiosperms,search,cold,anneal / random,anneal,random,2,11553053,5974375,3269.268742,1506.793658,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__random__s2.tre
+angiosperms,search,cold,anneal / random,anneal,random,3,11553053,5282833,3268.128042,1082.706249,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/anneal__random__s3.tre
+angiosperms,search,warm,dp / astral3,dp,astral3,1,11553053,11553053,0.010134522,0.003558529,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral3__s1.tre
+angiosperms,search,warm,dp / astral3,dp,astral3,2,11553053,11553053,0.022088766,0.003296832,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral3__s2.tre
+angiosperms,search,warm,dp / astral3,dp,astral3,3,11553053,11553053,0.011435889,0.003492384,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral3__s3.tre
+angiosperms,search,warm,dp / astral4,dp,astral4,1,11553053,11553053,0.020045702,0.002616656,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral4__s1.tre
+angiosperms,search,warm,dp / astral4,dp,astral4,2,11553053,11553053,0.015435867,0.003506352,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral4__s2.tre
+angiosperms,search,warm,dp / astral4,dp,astral4,3,11553053,11553053,0.017774195,0.003190483,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__astral4__s3.tre
+angiosperms,search,cold,dp / distance,dp,distance,1,11546946,11546946,0.016972214,0.008906322,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__distance__s1.tre
+angiosperms,search,cold,dp / genetree,dp,genetree,1,10716757,10716757,0.01814626,0.002831975,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__genetree__s1.tre
+angiosperms,search,cold,dp / genetree,dp,genetree,2,10610337,10610337,0.007252661,0.003162786,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__genetree__s2.tre
+angiosperms,search,cold,dp / genetree,dp,genetree,3,10875137,10875137,0.007283735,0.002981683,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__genetree__s3.tre
+angiosperms,search,cold,dp / greedy,dp,greedy,1,11542011,11542011,0.015797007,0.003723299,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__greedy__s1.tre
+angiosperms,search,cold,dp / greedy,dp,greedy,2,11551299,11551299,0.019764929,0.003733121,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__greedy__s2.tre
+angiosperms,search,cold,dp / greedy,dp,greedy,3,11553053,11553053,0.022864858,0.003670554,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__greedy__s3.tre
+angiosperms,search,cold,dp / random,dp,random,1,5338288,5338288,0.0118193,0.002843429,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__random__s1.tre
+angiosperms,search,cold,dp / random,dp,random,2,5974375,5974375,0.008995646,0.002626079,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__random__s2.tre
+angiosperms,search,cold,dp / random,dp,random,3,5282833,5282833,0.012703296,0.002775478,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/dp__random__s3.tre
+angiosperms,search,warm,ils / astral3,ils,astral3,1,11553053,11553053,3600.010264,0.00333039,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral3__s1.tre
+angiosperms,search,warm,ils / astral3,ils,astral3,2,11553053,11553053,3600.00997,0.003093763,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral3__s2.tre
+angiosperms,search,warm,ils / astral3,ils,astral3,3,11553053,11553053,3600.015351,0.004463108,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral3__s3.tre
+angiosperms,search,warm,ils / astral4,ils,astral4,1,11553053,11553053,3600.023268,0.002643818,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral4__s1.tre
+angiosperms,search,warm,ils / astral4,ils,astral4,2,11553053,11553053,3600.010531,0.002997473,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral4__s2.tre
+angiosperms,search,warm,ils / astral4,ils,astral4,3,11553053,11553053,3600.017898,0.003981078,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__astral4__s3.tre
+angiosperms,search,cold,ils / distance,ils,distance,1,11553053,11546946,3600.021334,0.058608601,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__distance__s1.tre
+angiosperms,search,cold,ils / distance,ils,distance,2,11553053,11529891,3600.022765,0.085237684,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__distance__s2.tre
+angiosperms,search,cold,ils / distance,ils,distance,3,11553053,11551299,3600.016286,0.030164508,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__distance__s3.tre
+angiosperms,search,cold,ils / genetree,ils,genetree,1,11553053,10716757,3600.0095,0.361690844,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__genetree__s1.tre
+angiosperms,search,cold,ils / genetree,ils,genetree,2,11553053,10610337,3600.008787,0.383359439,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__genetree__s2.tre
+angiosperms,search,cold,ils / genetree,ils,genetree,3,11553053,10875137,3600.006585,0.276175844,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__genetree__s3.tre
+angiosperms,search,cold,ils / greedy,ils,greedy,1,11553053,11542011,3600.008229,0.068700902,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__greedy__s1.tre
+angiosperms,search,cold,ils / greedy,ils,greedy,2,11553053,11551299,3600.006271,0.029958922,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__greedy__s2.tre
+angiosperms,search,cold,ils / greedy,ils,greedy,3,11553053,11553053,3600.01157,0.006070111,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__greedy__s3.tre
+angiosperms,search,cold,ils / random,ils,random,1,11553053,5338288,3600.006217,0.478822523,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__random__s1.tre
+angiosperms,search,cold,ils / random,ils,random,2,11553053,5974375,3600.007494,0.528844496,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__random__s2.tre
+angiosperms,search,cold,ils / random,ils,random,3,11553053,5282833,3600.007803,0.806385151,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/ils__random__s3.tre
+angiosperms,search,warm,multistart / astral3,multistart,astral3,1,11553053,11553053,3600.010295,0.003068822,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral3__s1.tre
+angiosperms,search,warm,multistart / astral3,multistart,astral3,2,11553053,11553053,3600.012651,0.002719295,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral3__s2.tre
+angiosperms,search,warm,multistart / astral3,multistart,astral3,3,11553053,11553053,3600.010366,0.00626441,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral3__s3.tre
+angiosperms,search,warm,multistart / astral4,multistart,astral4,1,11553053,11553053,3600.007422,0.005490814,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral4__s1.tre
+angiosperms,search,warm,multistart / astral4,multistart,astral4,2,11553053,11553053,3600.007986,0.002750823,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral4__s2.tre
+angiosperms,search,warm,multistart / astral4,multistart,astral4,3,11553053,11553053,3600.008922,0.003598398,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__astral4__s3.tre
+angiosperms,search,cold,multistart / distance,multistart,distance,1,11553053,11546946,3600.006702,0.059524017,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__distance__s1.tre
+angiosperms,search,cold,multistart / distance,multistart,distance,2,11553053,11529891,3600.006862,0.087416519,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__distance__s2.tre
+angiosperms,search,cold,multistart / distance,multistart,distance,3,11553053,11551299,3600.019387,0.0373175,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__distance__s3.tre
+angiosperms,search,cold,multistart / genetree,multistart,genetree,1,11553053,10716757,3600.022545,0.345407606,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__genetree__s1.tre
+angiosperms,search,cold,multistart / genetree,multistart,genetree,2,11553053,10610337,3600.009208,0.440682607,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__genetree__s2.tre
+angiosperms,search,cold,multistart / genetree,multistart,genetree,3,11553053,10875137,3600.007085,0.29234775,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__genetree__s3.tre
+angiosperms,search,cold,multistart / greedy,multistart,greedy,1,11553053,11542011,3600.019255,0.05871974,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__greedy__s1.tre
+angiosperms,search,cold,multistart / greedy,multistart,greedy,2,11553053,11551299,3600.023101,0.030501575,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__greedy__s2.tre
+angiosperms,search,cold,multistart / greedy,multistart,greedy,3,11553053,11553053,3600.014709,0.004684123,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__greedy__s3.tre
+angiosperms,search,cold,multistart / random,multistart,random,1,11553053,5338288,3600.008324,0.557304812,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__random__s1.tre
+angiosperms,search,cold,multistart / random,multistart,random,2,11553053,5974375,3600.00846,0.662449582,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__random__s2.tre
+angiosperms,search,cold,multistart / random,multistart,random,3,11553053,5282833,3600.009329,0.687902142,True,False,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/multistart__random__s3.tre
+angiosperms,search,warm,vnd / astral3,vnd,astral3,1,11553053,11553053,20.45123069,0.002976395,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral3__s1.tre
+angiosperms,search,warm,vnd / astral3,vnd,astral3,2,11553053,11553053,20.60019733,0.002635069,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral3__s2.tre
+angiosperms,search,warm,vnd / astral3,vnd,astral3,3,11553053,11553053,20.72078964,0.003175942,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral3__s3.tre
+angiosperms,search,warm,vnd / astral4,vnd,astral4,1,11553053,11553053,20.97956853,0.002937411,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral4__s1.tre
+angiosperms,search,warm,vnd / astral4,vnd,astral4,2,11553053,11553053,20.64814831,0.003015384,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral4__s2.tre
+angiosperms,search,warm,vnd / astral4,vnd,astral4,3,11553053,11553053,21.37810616,0.002957344,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__astral4__s3.tre
+angiosperms,search,cold,vnd / distance,vnd,distance,1,11553053,11546946,20.88200814,0.056836363,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__distance__s1.tre
+angiosperms,search,cold,vnd / distance,vnd,distance,2,11553053,11529891,20.83948691,0.084935143,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__distance__s2.tre
+angiosperms,search,cold,vnd / distance,vnd,distance,3,11553053,11551299,22.20520417,0.033962601,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__distance__s3.tre
+angiosperms,search,cold,vnd / genetree,vnd,genetree,1,11553053,10716757,28.25751703,0.405898726,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__genetree__s1.tre
+angiosperms,search,cold,vnd / genetree,vnd,genetree,2,11553053,10610337,21.80925179,0.328301237,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__genetree__s2.tre
+angiosperms,search,cold,vnd / genetree,vnd,genetree,3,11553053,10875137,22.08506538,0.229132199,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__genetree__s3.tre
+angiosperms,search,cold,vnd / greedy,vnd,greedy,1,11553053,11542011,21.3665077,0.053569338,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__greedy__s1.tre
+angiosperms,search,cold,vnd / greedy,vnd,greedy,2,11553053,11551299,29.02934215,0.039110681,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__greedy__s2.tre
+angiosperms,search,cold,vnd / greedy,vnd,greedy,3,11553053,11553053,28.98781227,0.006919323,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__greedy__s3.tre
+angiosperms,search,cold,vnd / random,vnd,random,1,11553053,5338288,21.91883672,0.428298939,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__random__s1.tre
+angiosperms,search,cold,vnd / random,vnd,random,2,11553053,5974375,22.75149743,0.528098708,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__random__s2.tre
+angiosperms,search,cold,vnd / random,vnd,random,3,11553053,5282833,21.0647207,0.680496186,True,True,,,/u/tony6/mqc-bench/results/stageB/angiosperms/search/vnd__random__s3.tre
+avian-tent,baseline,baseline,ASTRAL-IV -R,,,1,1231992828,,6825.497371435165,,True,True,1231992828,,/u/tony6/mqc-bench/results/stageB/avian-tent/baseline/astral4-R.s1.tre
+avian-tent,baseline,baseline,ASTRAL-IV -R,,,2,1231992828,,6759.227506160736,,True,True,1231992828,,/u/tony6/mqc-bench/results/stageB/avian-tent/baseline/astral4-R.s2.tre
+avian-tent,baseline,baseline,ASTRAL-IV,,,1,1231992828,,2566.918953180313,,True,True,1231992828,,/u/tony6/mqc-bench/results/stageB/avian-tent/baseline/astral4.s1.tre
+avian-tent,baseline,baseline,ASTRAL-IV,,,2,1231992828,,1858.994012594223,,True,True,1231992828,,/u/tony6/mqc-bench/results/stageB/avian-tent/baseline/astral4.s2.tre
+avian-tent,baseline,baseline,ASTRAL-IV,,,3,1231992828,,1923.896900653839,,True,True,1231992828,,/u/tony6/mqc-bench/results/stageB/avian-tent/baseline/astral4.s3.tre
+1kp,baseline,baseline,ASTRAL-III,,,1,339023690,,30.035939693450928,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral3.s1.tre
+1kp,baseline,baseline,ASTRAL-III,,,2,339023690,,43.55641984939575,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral3.s2.tre
+1kp,baseline,baseline,ASTRAL-III,,,3,339023690,,46.793938398361206,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral3.s3.tre
+1kp,baseline,baseline,ASTRAL-IV -R,,,1,339023690,,188.82377743721008,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral4-R.s1.tre
+1kp,baseline,baseline,ASTRAL-IV -R,,,2,339023690,,194.62570428848267,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral4-R.s2.tre
+1kp,baseline,baseline,ASTRAL-IV,,,1,339023690,,78.94504737854004,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral4.s1.tre
+1kp,baseline,baseline,ASTRAL-IV,,,2,339023690,,47.10118365287781,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral4.s2.tre
+1kp,baseline,baseline,ASTRAL-IV,,,3,339023690,,49.08442950248718,,True,True,339023690,,/u/tony6/mqc-bench/results/stageB/1kp/baseline/astral4.s3.tre
+1kp,search,warm,anneal / astral3,anneal,astral3,1,339023690,339023690,3600.034562,0.115446316,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral3__s1.tre
+1kp,search,warm,anneal / astral3,anneal,astral3,2,339023690,339023690,3600.058735,0.110796176,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral3__s2.tre
+1kp,search,warm,anneal / astral3,anneal,astral3,3,339023690,339023690,3600.053441,0.125554019,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral3__s3.tre
+1kp,search,warm,anneal / astral4,anneal,astral4,1,339023690,339023690,3600.042426,0.122272434,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral4__s1.tre
+1kp,search,warm,anneal / astral4,anneal,astral4,2,339023690,339023690,3600.065913,0.130237256,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral4__s2.tre
+1kp,search,warm,anneal / astral4,anneal,astral4,3,339023690,339023690,3600.054522,0.121800449,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__astral4__s3.tre
+1kp,search,cold,anneal / distance,anneal,distance,1,339023690,338567773,3600.032072,3244.093578,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__distance__s1.tre
+1kp,search,cold,anneal / distance,anneal,distance,2,339023690,339023690,3600.036011,0.16590994,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__distance__s2.tre
+1kp,search,cold,anneal / distance,anneal,distance,3,339023690,338565658,3600.033666,3255.173044,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__distance__s3.tre
+1kp,search,cold,anneal / genetree,anneal,genetree,1,339023690,310649192,3600.02807,3269.982424,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__genetree__s1.tre
+1kp,search,cold,anneal / genetree,anneal,genetree,2,339023690,305509145,3600.029568,3267.380599,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__genetree__s2.tre
+1kp,search,cold,anneal / genetree,anneal,genetree,3,339023690,314641559,3600.031934,3263.277224,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__genetree__s3.tre
+1kp,search,cold,anneal / greedy,anneal,greedy,1,339023690,338718317,3600.05515,3261.887084,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__greedy__s1.tre
+1kp,search,cold,anneal / greedy,anneal,greedy,2,339023690,339016685,3600.041982,3259.557205,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__greedy__s2.tre
+1kp,search,cold,anneal / greedy,anneal,greedy,3,339023690,339011063,3600.027582,3250.092046,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__greedy__s3.tre
+1kp,search,cold,anneal / random,anneal,random,1,339023690,139274361,3600.029158,3057.919952,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__random__s1.tre
+1kp,search,cold,anneal / random,anneal,random,2,339023690,133561128,3600.023884,3244.354609,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__random__s2.tre
+1kp,search,cold,anneal / random,anneal,random,3,339023690,136578826,3600.023858,2866.268412,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/anneal__random__s3.tre
+1kp,search,warm,dp / astral3,dp,astral3,1,339023690,339023690,0.172560066,0.15178438,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral3__s1.tre
+1kp,search,warm,dp / astral3,dp,astral3,2,339023690,339023690,0.164787853,0.143463459,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral3__s2.tre
+1kp,search,warm,dp / astral3,dp,astral3,3,339023690,339023690,0.174756345,0.154478432,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral3__s3.tre
+1kp,search,warm,dp / astral4,dp,astral4,1,339023690,339023690,0.172360254,0.152116371,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral4__s1.tre
+1kp,search,warm,dp / astral4,dp,astral4,2,339023690,339023690,0.168769355,0.147893653,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral4__s2.tre
+1kp,search,warm,dp / astral4,dp,astral4,3,339023690,339023690,0.165539621,0.144942397,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__astral4__s3.tre
+1kp,search,cold,dp / distance,dp,distance,1,338567773,338567773,0.195605824,0.174463238,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__distance__s1.tre
+1kp,search,cold,dp / genetree,dp,genetree,1,310649192,310649192,0.177629213,0.156605239,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__genetree__s1.tre
+1kp,search,cold,dp / genetree,dp,genetree,2,305509145,305509145,0.167939834,0.147153442,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__genetree__s2.tre
+1kp,search,cold,dp / genetree,dp,genetree,3,314641559,314641559,0.17719213,0.156553521,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__genetree__s3.tre
+1kp,search,cold,dp / greedy,dp,greedy,1,338718317,338718317,0.268652811,0.247052888,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__greedy__s1.tre
+1kp,search,cold,dp / greedy,dp,greedy,2,339016685,339016685,0.266972334,0.24481494,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__greedy__s2.tre
+1kp,search,cold,dp / greedy,dp,greedy,3,339011063,339011063,0.256872092,0.236008551,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__greedy__s3.tre
+1kp,search,cold,dp / random,dp,random,1,139274361,139274361,0.165322005,0.143421246,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__random__s1.tre
+1kp,search,cold,dp / random,dp,random,2,133561128,133561128,0.174608457,0.153444142,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__random__s2.tre
+1kp,search,cold,dp / random,dp,random,3,136578826,136578826,0.171242247,0.149333593,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp/search/dp__random__s3.tre
+1kp,search,warm,ils / astral3,ils,astral3,1,339023690,339023690,3600.099427,0.161176449,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral3__s1.tre
+1kp,search,warm,ils / astral3,ils,astral3,2,339023690,339023690,3600.125268,0.146259986,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral3__s2.tre
+1kp,search,warm,ils / astral3,ils,astral3,3,339023690,339023690,3600.106236,0.168421954,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral3__s3.tre
+1kp,search,warm,ils / astral4,ils,astral4,1,339023690,339023690,3600.030245,0.166420496,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral4__s1.tre
+1kp,search,warm,ils / astral4,ils,astral4,2,339023690,339023690,3600.062064,0.187443115,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral4__s2.tre
+1kp,search,warm,ils / astral4,ils,astral4,3,339023690,339023690,3600.088535,0.129942914,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__astral4__s3.tre
+1kp,search,cold,ils / distance,ils,distance,1,339023690,338567773,3600.042062,2.962945344,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__distance__s1.tre
+1kp,search,cold,ils / distance,ils,distance,2,339023690,339023690,3600.12597,0.162650775,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__distance__s2.tre
+1kp,search,cold,ils / distance,ils,distance,3,339023690,338565658,3600.058698,3.696505428,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__distance__s3.tre
+1kp,search,cold,ils / genetree,ils,genetree,1,339023690,310649192,3600.107684,98.3602878,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__genetree__s1.tre
+1kp,search,cold,ils / genetree,ils,genetree,2,339023690,305509145,3600.127097,81.56781073,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__genetree__s2.tre
+1kp,search,cold,ils / genetree,ils,genetree,3,339023690,314641559,3600.082517,38.72552747,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__genetree__s3.tre
+1kp,search,cold,ils / greedy,ils,greedy,1,339023690,338718317,3600.107734,1.189711722,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__greedy__s1.tre
+1kp,search,cold,ils / greedy,ils,greedy,2,339023690,339016685,3600.047008,5.341115749,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__greedy__s2.tre
+1kp,search,cold,ils / greedy,ils,greedy,3,339023690,339011063,3600.062263,7.39566042,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__greedy__s3.tre
+1kp,search,cold,ils / random,ils,random,1,339023690,139274361,3600.127749,79.8576422,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__random__s1.tre
+1kp,search,cold,ils / random,ils,random,2,339023690,133561128,3600.096959,87.58276364,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__random__s2.tre
+1kp,search,cold,ils / random,ils,random,3,339023690,136578826,3600.037852,83.02706199,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/ils__random__s3.tre
+1kp,search,warm,multistart / astral3,multistart,astral3,1,339023690,339023690,3600.094834,0.107875402,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral3__s1.tre
+1kp,search,warm,multistart / astral3,multistart,astral3,2,339023690,339023690,3600.049215,0.103765747,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral3__s2.tre
+1kp,search,warm,multistart / astral3,multistart,astral3,3,339023690,339023690,3600.131848,0.11869878,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral3__s3.tre
+1kp,search,warm,multistart / astral4,multistart,astral4,1,339023690,339023690,3600.098964,0.116618753,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral4__s1.tre
+1kp,search,warm,multistart / astral4,multistart,astral4,2,339023690,339023690,3600.10378,0.117936598,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral4__s2.tre
+1kp,search,warm,multistart / astral4,multistart,astral4,3,339023690,339023690,3600.067906,0.162545522,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__astral4__s3.tre
+1kp,search,cold,multistart / distance,multistart,distance,1,339023690,338567773,3600.190782,3.949559751,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__distance__s1.tre
+1kp,search,cold,multistart / distance,multistart,distance,2,339023690,339023690,3600.08327,0.202697726,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__distance__s2.tre
+1kp,search,cold,multistart / distance,multistart,distance,3,339023690,338565658,3600.15223,4.752895301,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__distance__s3.tre
+1kp,search,cold,multistart / genetree,multistart,genetree,1,339023690,310649192,3600.174489,92.38169465,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__genetree__s1.tre
+1kp,search,cold,multistart / genetree,multistart,genetree,2,339023690,305509145,3600.091697,74.52930957,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__genetree__s2.tre
+1kp,search,cold,multistart / genetree,multistart,genetree,3,339023690,314641559,3600.179773,54.60344866,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__genetree__s3.tre
+1kp,search,cold,multistart / greedy,multistart,greedy,1,339023690,338718317,3600.039126,1.353306031,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__greedy__s1.tre
+1kp,search,cold,multistart / greedy,multistart,greedy,2,339023690,339016685,3600.077682,5.301452063,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__greedy__s2.tre
+1kp,search,cold,multistart / greedy,multistart,greedy,3,339023690,339011063,3600.148195,7.299503039,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__greedy__s3.tre
+1kp,search,cold,multistart / random,multistart,random,1,339023690,139274361,3600.081473,80.75521798,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__random__s1.tre
+1kp,search,cold,multistart / random,multistart,random,2,339023690,133561128,3600.189228,126.9318511,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__random__s2.tre
+1kp,search,cold,multistart / random,multistart,random,3,339023690,136578826,3600.075676,84.98736793,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/multistart__random__s3.tre
+1kp,search,warm,vnd / astral3,vnd,astral3,1,339023690,339023690,3600.078274,0.142738397,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral3__s1.tre
+1kp,search,warm,vnd / astral3,vnd,astral3,2,339023690,339023690,3600.060549,0.154677689,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral3__s2.tre
+1kp,search,warm,vnd / astral3,vnd,astral3,3,339023690,339023690,3600.165543,0.160162262,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral3__s3.tre
+1kp,search,warm,vnd / astral4,vnd,astral4,1,339023690,339023690,3600.123553,0.1258014,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral4__s1.tre
+1kp,search,warm,vnd / astral4,vnd,astral4,2,339023690,339023690,3600.050139,0.115669069,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral4__s2.tre
+1kp,search,warm,vnd / astral4,vnd,astral4,3,339023690,339023690,3600.05379,0.10912435,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__astral4__s3.tre
+1kp,search,cold,vnd / distance,vnd,distance,1,339023690,338567773,3600.142417,2.965863608,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__distance__s1.tre
+1kp,search,cold,vnd / distance,vnd,distance,2,339023690,339023690,3600.041659,0.148372105,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__distance__s2.tre
+1kp,search,cold,vnd / distance,vnd,distance,3,339023690,338565658,3600.176041,3.490977373,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__distance__s3.tre
+1kp,search,cold,vnd / genetree,vnd,genetree,1,339023690,310649192,3600.120693,70.66244992,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__genetree__s1.tre
+1kp,search,cold,vnd / genetree,vnd,genetree,2,339023690,305509145,3600.068352,56.56906028,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__genetree__s2.tre
+1kp,search,cold,vnd / genetree,vnd,genetree,3,339023690,314641559,3600.10351,41.20131166,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__genetree__s3.tre
+1kp,search,cold,vnd / greedy,vnd,greedy,1,339023690,338718317,3600.198398,1.490035281,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__greedy__s1.tre
+1kp,search,cold,vnd / greedy,vnd,greedy,2,339023690,339016685,3600.0923,4.202387203,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__greedy__s2.tre
+1kp,search,cold,vnd / greedy,vnd,greedy,3,339023690,339011063,3600.048187,5.369429243,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__greedy__s3.tre
+1kp,search,cold,vnd / random,vnd,random,1,339023690,139274361,3600.105742,85.8633857,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__random__s1.tre
+1kp,search,cold,vnd / random,vnd,random,2,339023690,133561128,3600.091773,91.45804553,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__random__s2.tre
+1kp,search,cold,vnd / random,vnd,random,3,339023690,136578826,3600.133457,87.80300993,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp/search/vnd__random__s3.tre
+1kp-bs10,baseline,baseline,ASTRAL-III,,,1,326972173,,38.66139030456543,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral3.s1.tre
+1kp-bs10,baseline,baseline,ASTRAL-III,,,2,326972173,,38.30798578262329,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral3.s2.tre
+1kp-bs10,baseline,baseline,ASTRAL-III,,,3,326972173,,38.26850724220276,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral3.s3.tre
+1kp-bs10,baseline,baseline,ASTRAL-IV -R,,,1,326972173,,137.81214570999146,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral4-R.s1.tre
+1kp-bs10,baseline,baseline,ASTRAL-IV -R,,,2,326972173,,136.95742917060852,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral4-R.s2.tre
+1kp-bs10,baseline,baseline,ASTRAL-IV,,,1,326972173,,54.03830003738403,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral4.s1.tre
+1kp-bs10,baseline,baseline,ASTRAL-IV,,,2,326972173,,54.33754348754883,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral4.s2.tre
+1kp-bs10,baseline,baseline,ASTRAL-IV,,,3,326972173,,35.293760538101196,,True,True,326972173,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/baseline/astral4.s3.tre
+1kp-bs10,search,warm,anneal / astral3,anneal,astral3,1,326972173,326972173,3600.025284,0.111094765,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral3__s1.tre
+1kp-bs10,search,warm,anneal / astral3,anneal,astral3,2,326972173,326972173,3600.032575,0.168483764,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral3__s2.tre
+1kp-bs10,search,warm,anneal / astral3,anneal,astral3,3,326972173,326972173,3600.04316,0.11908513,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral3__s3.tre
+1kp-bs10,search,warm,anneal / astral4,anneal,astral4,1,326972173,326972173,3600.054976,0.121007397,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral4__s1.tre
+1kp-bs10,search,warm,anneal / astral4,anneal,astral4,2,326972173,326972173,3600.035213,0.124601067,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral4__s2.tre
+1kp-bs10,search,warm,anneal / astral4,anneal,astral4,3,326972173,326972173,3600.047497,0.118958897,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__astral4__s3.tre
+1kp-bs10,search,cold,anneal / distance,anneal,distance,1,326972173,326972173,3600.06475,0.198405868,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__distance__s1.tre
+1kp-bs10,search,cold,anneal / distance,anneal,distance,2,326972173,326972173,3600.045114,0.215990946,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__distance__s2.tre
+1kp-bs10,search,cold,anneal / distance,anneal,distance,3,326972173,326972173,3600.052678,0.205882655,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__distance__s3.tre
+1kp-bs10,search,cold,anneal / genetree,anneal,genetree,1,326972173,307175877,3600.030229,3263.975159,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__genetree__s1.tre
+1kp-bs10,search,cold,anneal / genetree,anneal,genetree,2,326972173,297748710,3600.056344,3273.959877,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__genetree__s2.tre
+1kp-bs10,search,cold,anneal / genetree,anneal,genetree,3,326972173,300246667,3600.038015,3260.787977,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__genetree__s3.tre
+1kp-bs10,search,cold,anneal / greedy,anneal,greedy,1,326972173,326627614,3600.051754,3272.19296,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__greedy__s1.tre
+1kp-bs10,search,cold,anneal / greedy,anneal,greedy,2,326972173,326965758,3600.049113,3246.081468,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__greedy__s2.tre
+1kp-bs10,search,cold,anneal / greedy,anneal,greedy,3,326972173,326965214,3600.034372,3247.060828,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__greedy__s3.tre
+1kp-bs10,search,cold,anneal / random,anneal,random,1,326972173,130959033,3600.032664,3244.786681,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__random__s1.tre
+1kp-bs10,search,cold,anneal / random,anneal,random,2,326972173,125291226,3600.053858,3248.868656,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__random__s2.tre
+1kp-bs10,search,cold,anneal / random,anneal,random,3,326972173,128167921,3600.028182,2623.020478,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/anneal__random__s3.tre
+1kp-bs10,search,warm,dp / astral3,dp,astral3,1,326972173,326972173,0.114848186,0.096000516,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral3__s1.tre
+1kp-bs10,search,warm,dp / astral3,dp,astral3,2,326972173,326972173,0.118518215,0.099594905,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral3__s2.tre
+1kp-bs10,search,warm,dp / astral3,dp,astral3,3,326972173,326972173,0.126393418,0.107961958,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral3__s3.tre
+1kp-bs10,search,warm,dp / astral4,dp,astral4,1,326972173,326972173,0.138157557,0.118828378,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral4__s1.tre
+1kp-bs10,search,warm,dp / astral4,dp,astral4,2,326972173,326972173,0.137661754,0.118937775,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral4__s2.tre
+1kp-bs10,search,warm,dp / astral4,dp,astral4,3,326972173,326972173,0.1224284,0.103820505,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__astral4__s3.tre
+1kp-bs10,search,cold,dp / distance,dp,distance,1,326972173,326972173,0.169750237,0.150386229,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__distance__s1.tre
+1kp-bs10,search,cold,dp / genetree,dp,genetree,1,307175877,307175877,0.100035315,0.081095362,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__genetree__s1.tre
+1kp-bs10,search,cold,dp / genetree,dp,genetree,2,297748710,297748710,0.09976792,0.081015133,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__genetree__s2.tre
+1kp-bs10,search,cold,dp / genetree,dp,genetree,3,300246667,300246667,0.103122709,0.084270458,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__genetree__s3.tre
+1kp-bs10,search,cold,dp / greedy,dp,greedy,1,326627614,326627614,0.207017521,0.188026607,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__greedy__s1.tre
+1kp-bs10,search,cold,dp / greedy,dp,greedy,2,326965758,326965758,0.190308478,0.171083169,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__greedy__s2.tre
+1kp-bs10,search,cold,dp / greedy,dp,greedy,3,326965214,326965214,0.145794571,0.126136071,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__greedy__s3.tre
+1kp-bs10,search,cold,dp / random,dp,random,1,130959033,130959033,0.182554239,0.159562022,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__random__s1.tre
+1kp-bs10,search,cold,dp / random,dp,random,2,125291226,125291226,0.191104925,0.170215429,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__random__s2.tre
+1kp-bs10,search,cold,dp / random,dp,random,3,128167921,128167921,0.172076568,0.15064686,True,True,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/dp__random__s3.tre
+1kp-bs10,search,warm,ils / astral3,ils,astral3,1,326972173,326972173,3600.031715,0.172030061,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral3__s1.tre
+1kp-bs10,search,warm,ils / astral3,ils,astral3,2,326972173,326972173,3600.170931,0.160444883,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral3__s2.tre
+1kp-bs10,search,warm,ils / astral3,ils,astral3,3,326972173,326972173,3600.092231,0.163613762,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral3__s3.tre
+1kp-bs10,search,warm,ils / astral4,ils,astral4,1,326972173,326972173,3600.087939,0.15630372,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral4__s1.tre
+1kp-bs10,search,warm,ils / astral4,ils,astral4,2,326972173,326972173,3600.115887,0.159206715,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral4__s2.tre
+1kp-bs10,search,warm,ils / astral4,ils,astral4,3,326972173,326972173,3600.044339,0.153080481,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__astral4__s3.tre
+1kp-bs10,search,cold,ils / distance,ils,distance,1,326972173,326972173,3600.047897,0.158003085,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__distance__s1.tre
+1kp-bs10,search,cold,ils / distance,ils,distance,2,326972173,326972173,3600.083608,0.163781187,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__distance__s2.tre
+1kp-bs10,search,cold,ils / distance,ils,distance,3,326972173,326972173,3600.031658,0.153816501,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__distance__s3.tre
+1kp-bs10,search,cold,ils / genetree,ils,genetree,1,326972173,307175877,3600.06576,60.592932,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__genetree__s1.tre
+1kp-bs10,search,cold,ils / genetree,ils,genetree,2,326972173,297748710,3600.126205,50.94059068,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__genetree__s2.tre
+1kp-bs10,search,cold,ils / genetree,ils,genetree,3,326972173,300246667,3600.030126,82.13507545,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__genetree__s3.tre
+1kp-bs10,search,cold,ils / greedy,ils,greedy,1,326972173,326627614,3600.102379,5.755109383,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__greedy__s1.tre
+1kp-bs10,search,cold,ils / greedy,ils,greedy,2,326972173,326965758,3600.079184,5.145761596,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__greedy__s2.tre
+1kp-bs10,search,cold,ils / greedy,ils,greedy,3,326972173,326965214,3600.103822,7.844871785,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__greedy__s3.tre
+1kp-bs10,search,cold,ils / random,ils,random,1,326972173,130959033,3600.120494,101.8825461,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__random__s1.tre
+1kp-bs10,search,cold,ils / random,ils,random,2,326972173,125291226,3600.1305,104.3502597,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__random__s2.tre
+1kp-bs10,search,cold,ils / random,ils,random,3,326972173,128167921,3600.120082,79.65733889,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/ils__random__s3.tre
+1kp-bs10,search,warm,multistart / astral3,multistart,astral3,1,326972173,326972173,3600.133263,0.107730526,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral3__s1.tre
+1kp-bs10,search,warm,multistart / astral3,multistart,astral3,2,326972173,326972173,3600.136515,0.110599009,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral3__s2.tre
+1kp-bs10,search,warm,multistart / astral3,multistart,astral3,3,326972173,326972173,3600.084361,0.115382935,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral3__s3.tre
+1kp-bs10,search,warm,multistart / astral4,multistart,astral4,1,326972173,326972173,3600.076058,0.113626019,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral4__s1.tre
+1kp-bs10,search,warm,multistart / astral4,multistart,astral4,2,326972173,326972173,3600.117052,0.13485104,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral4__s2.tre
+1kp-bs10,search,warm,multistart / astral4,multistart,astral4,3,326972173,326972173,3600.104418,0.136471277,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__astral4__s3.tre
+1kp-bs10,search,cold,multistart / distance,multistart,distance,1,326972173,326972173,3600.033557,0.165084571,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__distance__s1.tre
+1kp-bs10,search,cold,multistart / distance,multistart,distance,2,326972173,326972173,3600.12378,0.215851953,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__distance__s2.tre
+1kp-bs10,search,cold,multistart / distance,multistart,distance,3,326972173,326972173,3600.095164,0.204104133,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__distance__s3.tre
+1kp-bs10,search,cold,multistart / genetree,multistart,genetree,1,326972173,307175877,3600.157656,80.10452747,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__genetree__s1.tre
+1kp-bs10,search,cold,multistart / genetree,multistart,genetree,2,326972173,297748710,3600.064804,67.06377745,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__genetree__s2.tre
+1kp-bs10,search,cold,multistart / genetree,multistart,genetree,3,326972173,300246667,3600.049077,71.4815144,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__genetree__s3.tre
+1kp-bs10,search,cold,multistart / greedy,multistart,greedy,1,326972173,326627614,3600.062833,5.699485553,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__greedy__s1.tre
+1kp-bs10,search,cold,multistart / greedy,multistart,greedy,2,326972173,326965758,3600.082249,7.404259926,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__greedy__s2.tre
+1kp-bs10,search,cold,multistart / greedy,multistart,greedy,3,326972173,326965214,3600.11076,8.065442217,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__greedy__s3.tre
+1kp-bs10,search,cold,multistart / random,multistart,random,1,326972173,130959033,3600.137885,90.24658601,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__random__s1.tre
+1kp-bs10,search,cold,multistart / random,multistart,random,2,326972173,125291226,3600.117666,122.5882795,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__random__s2.tre
+1kp-bs10,search,cold,multistart / random,multistart,random,3,326972173,128167921,3600.061587,100.8056468,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/multistart__random__s3.tre
+1kp-bs10,search,warm,vnd / astral3,vnd,astral3,1,326972173,326972173,3600.078449,0.162130684,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral3__s1.tre
+1kp-bs10,search,warm,vnd / astral3,vnd,astral3,2,326972173,326972173,3600.141229,0.120185268,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral3__s2.tre
+1kp-bs10,search,warm,vnd / astral3,vnd,astral3,3,326972173,326972173,3600.166849,0.173635607,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral3__s3.tre
+1kp-bs10,search,warm,vnd / astral4,vnd,astral4,1,326972173,326972173,3600.072941,0.169343998,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral4__s1.tre
+1kp-bs10,search,warm,vnd / astral4,vnd,astral4,2,326972173,326972173,3600.099193,0.169038435,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral4__s2.tre
+1kp-bs10,search,warm,vnd / astral4,vnd,astral4,3,326972173,326972173,3600.090054,0.132031962,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__astral4__s3.tre
+1kp-bs10,search,cold,vnd / distance,vnd,distance,1,326972173,326972173,3600.115388,0.13660164,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__distance__s1.tre
+1kp-bs10,search,cold,vnd / distance,vnd,distance,2,326972173,326972173,3600.092244,0.142554728,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__distance__s2.tre
+1kp-bs10,search,cold,vnd / distance,vnd,distance,3,326972173,326972173,3600.061063,0.158402026,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__distance__s3.tre
+1kp-bs10,search,cold,vnd / genetree,vnd,genetree,1,326972173,307175877,3600.100887,51.46542254,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__genetree__s1.tre
+1kp-bs10,search,cold,vnd / genetree,vnd,genetree,2,326972173,297748710,3600.191476,74.60715045,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__genetree__s2.tre
+1kp-bs10,search,cold,vnd / genetree,vnd,genetree,3,326972173,300246667,3600.030775,79.61692526,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__genetree__s3.tre
+1kp-bs10,search,cold,vnd / greedy,vnd,greedy,1,326972173,326627614,3600.026481,3.531625245,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__greedy__s1.tre
+1kp-bs10,search,cold,vnd / greedy,vnd,greedy,2,326972173,326965758,3600.124559,5.961308814,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__greedy__s2.tre
+1kp-bs10,search,cold,vnd / greedy,vnd,greedy,3,326972173,326965214,3600.043071,8.925796995,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__greedy__s3.tre
+1kp-bs10,search,cold,vnd / random,vnd,random,1,326972173,130959033,3600.063849,75.07243539,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__random__s1.tre
+1kp-bs10,search,cold,vnd / random,vnd,random,2,326972173,125291226,3600.119792,102.2727799,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__random__s2.tre
+1kp-bs10,search,cold,vnd / random,vnd,random,3,326972173,128167921,3600.034331,82.65886312,True,False,,,/u/tony6/mqc-bench/results/stageB/1kp-bs10/search/vnd__random__s3.tre

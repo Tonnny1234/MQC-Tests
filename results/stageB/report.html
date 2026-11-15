@@ -1,0 +1,209 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Benchmark report: stageB</title><style>body{font:15px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:32px auto;max-width:1150px;padding:0 16px;color:#1f2328}h1{font-size:24px}h2{font-size:18px;margin-top:36px;border-bottom:1px solid #d0d7de;padding-bottom:4px}table{border-collapse:collapse;margin:12px 0 20px;font-size:13.5px}th,td{border:1px solid #d0d7de;padding:4px 9px;text-align:right}th{background:#f6f8fa}td:first-child,th:first-child{text-align:left}.BEAT{background:#dafbe1;font-weight:600}.TIE{background:#f6f8fa}.BEHIND{background:#ffebe9}.ERROR{background:#ff8182;font-weight:600}</style></head><body><h1>Benchmark report: stageB</h1>
+<p>Generated 2026-11-15 00:19. 5 datasets, 389 runs (389 finished, 0 unfinished or failed).</p>
+<p>Every score is the quartet score from one scorer (mqc score). Cross-checks: 37 ASTRAL runs compared with the score ASTRAL printed, 0 of our trees re-scored with ASTRAL-III -q; 0 disagreements.</p>
+<h2>1. Overview: best score per dataset</h2>
+<p>Warm = our search started from ASTRAL&#x27;s tree. Cold = started from our own orders, no ASTRAL input. Each ASTRAL column is its best run over seeds. &#x27;yes&#x27; under optimal means the exact optimum was reached.</p>
+<table><tr><th>dataset</th><th>taxa</th><th>genes</th><th>exact optimum</th><th>ASTRAL-III</th><th>ASTRAL-IV</th><th>ours warm</th><th>ours cold</th><th>our best vs ASTRAL-III</th><th>our best vs ASTRAL-IV</th><th>optimal?</th></tr>
+<tr><td>mammals</td><td>37</td><td>424</td><td></td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>angiosperms</td><td>46</td><td>310</td><td></td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>avian-tent</td><td>48</td><td>14446</td><td></td><td></td><td>1,231,992,828</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1kp</td><td>103</td><td>424</td><td></td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+<tr><td>1kp-bs10</td><td>103</td><td>424</td><td></td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td class='TIE'>TIE</td><td></td></tr>
+</table>
+<p>Datasets won, tied and lost by each track against each ASTRAL (best run of each):</p>
+<table><tr><th>comparison</th><th>BEAT</th><th>TIE</th><th>BEHIND</th></tr>
+<tr><td>cold vs ASTRAL-III</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>cold vs ASTRAL-IV</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>warm vs ASTRAL-III</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>warm vs ASTRAL-IV</td><td>0</td><td>4</td><td>0</td></tr>
+</table>
+<h2>3. Methods across all datasets</h2>
+<p>One row per method. W/T/L compares the method&#x27;s best run on each dataset with the better ASTRAL. Gap is the average shortfall from the best score any method found, over all runs. Optimal counts runs on datasets with a known optimum.</p>
+<table><tr><th>track</th><th>method</th><th>datasets</th><th>runs</th><th>W / T / L vs ASTRAL</th><th>runs &gt;= ASTRAL</th><th>runs optimal</th><th>mean gap to best</th><th>median time to best</th><th>median run time</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td></td><td>18 s</td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>5</td><td>15</td><td>0 / 5 / 0</td><td>15 / 15</td><td></td><td>0.0000%</td><td></td><td>47 s</td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>5</td><td>10</td><td>0 / 5 / 0</td><td>10 / 10</td><td></td><td>0.0000%</td><td></td><td>137 s</td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>anneal / astral4</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.05 s</td><td>0.07 s</td></tr>
+<tr><td>warm</td><td>dp / astral4</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.05 s</td><td>0.07 s</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.08 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>ils / astral4</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.07 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>multistart / astral4</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>1.0 h</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>0.5 h</td></tr>
+<tr><td>warm</td><td>vnd / astral4</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.06 s</td><td>0.5 h</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.21 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.8 h</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.8 h</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.6 h</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>4</td><td>4</td><td>0 / 2 / 2</td><td>2 / 4</td><td></td><td>0.0468%</td><td>0.08 s</td><td>0.09 s</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>4</td><td>12</td><td>0 / 0 / 4</td><td>0 / 12</td><td></td><td>5.9336%</td><td>0.04 s</td><td>0.06 s</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>4</td><td>12</td><td>0 / 2 / 2</td><td>4 / 12</td><td></td><td>0.0263%</td><td>0.06 s</td><td>0.08 s</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>4</td><td>12</td><td>0 / 0 / 4</td><td>0 / 12</td><td></td><td>57.4055%</td><td>0.07 s</td><td>0.09 s</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.12 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>20 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.63 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>40 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.13 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>28 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.71 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>41 s</td><td>1.0 h</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.11 s</td><td>0.5 h</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>21 s</td><td>0.5 h</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>0.77 s</td><td>0.5 h</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>4</td><td>12</td><td>0 / 4 / 0</td><td>12 / 12</td><td></td><td>0.0000%</td><td>38 s</td><td>0.5 h</td></tr>
+</table>
+<h2>4. Detail per dataset</h2>
+<p>mammals: 37 taxa, 424 gene trees. Best known score 25,526,915; better ASTRAL 25,526,915.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td></td><td></td><td>2.86 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td></td><td></td><td>10 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>2</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td></td><td></td><td>38 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>warm</td><td>anneal / astral4</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral4</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral4</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral4</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>5.28 s</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral4</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>5.37 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.5 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.2 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.01 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>3</td><td>25,521,518</td><td>25,483,609</td><td>25,237,635</td><td class='BEHIND'>BEHIND -5,397</td><td>0.00 s</td><td>0.01 s</td><td>2</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>3</td><td>11,378,547</td><td>11,004,014</td><td>10,586,976</td><td class='BEHIND'>BEHIND -14,148,368</td><td>0.00 s</td><td>0.01 s</td><td>68</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.01 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.02 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.11 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.01 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.02 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.10 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.01 s</td><td>5.34 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.02 s</td><td>5.36 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.00 s</td><td>5.26 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>3</td><td>25,526,915</td><td>25,526,915</td><td>25,526,915</td><td class='TIE'>TIE</td><td>0.13 s</td><td>6.47 s</td><td>0</td></tr>
+</table>
+<p>angiosperms: 46 taxa, 310 gene trees. Best known score 11,553,053; better ASTRAL 11,553,053.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td></td><td></td><td>5.15 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td></td><td></td><td>5.49 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>2</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td></td><td></td><td>22 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>warm</td><td>anneal / astral4</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.01 s</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral4</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral4</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral4</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>21 s</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral4</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.00 s</td><td>21 s</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.7 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.7 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.7 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.4 h</td><td>0.9 h</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>11,546,946</td><td>11,546,946</td><td>11,546,946</td><td class='BEHIND'>BEHIND -6,107</td><td>0.01 s</td><td>0.02 s</td><td>6</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>3</td><td>10,875,137</td><td>10,716,757</td><td>10,610,337</td><td class='BEHIND'>BEHIND -677,916</td><td>0.00 s</td><td>0.01 s</td><td>56</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>3</td><td>11,553,053</td><td>11,551,299</td><td>11,542,011</td><td class='TIE'>TIE</td><td>0.00 s</td><td>0.02 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>3</td><td>5,974,375</td><td>5,338,288</td><td>5,282,833</td><td class='BEHIND'>BEHIND -5,578,678</td><td>0.00 s</td><td>0.01 s</td><td>86</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.06 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.36 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.03 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.53 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.06 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.35 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.03 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.66 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.06 s</td><td>21 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.33 s</td><td>22 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.04 s</td><td>29 s</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>3</td><td>11,553,053</td><td>11,553,053</td><td>11,553,053</td><td class='TIE'>TIE</td><td>0.53 s</td><td>22 s</td><td>0</td></tr>
+</table>
+<p>avian-tent: 48 taxa, 14446 gene trees. Best known score 1,231,992,828; better ASTRAL 1,231,992,828.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>1,231,992,828</td><td>1,231,992,828</td><td>1,231,992,828</td><td></td><td></td><td>0.5 h</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>2</td><td>1,231,992,828</td><td>1,231,992,828</td><td>1,231,992,828</td><td></td><td></td><td>1.9 h</td><td></td></tr>
+</table>
+<p>1kp: 103 taxa, 424 gene trees. Best known score 339,023,690; better ASTRAL 339,023,690.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td></td><td></td><td>44 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td></td><td></td><td>49 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>2</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td></td><td></td><td>192 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>anneal / astral4</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.15 s</td><td>0.17 s</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral4</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.15 s</td><td>0.17 s</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.16 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral4</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.17 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.11 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral4</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.15 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral4</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>0.8 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>338,567,773</td><td>338,567,773</td><td>338,567,773</td><td class='BEHIND'>BEHIND -455,917</td><td>0.17 s</td><td>0.20 s</td><td>2</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>3</td><td>314,641,559</td><td>310,649,192</td><td>305,509,145</td><td class='BEHIND'>BEHIND -24,382,131</td><td>0.16 s</td><td>0.18 s</td><td>130</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>3</td><td>339,016,685</td><td>339,011,063</td><td>338,718,317</td><td class='BEHIND'>BEHIND -7,005</td><td>0.24 s</td><td>0.27 s</td><td>10</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>3</td><td>139,274,361</td><td>136,578,826</td><td>133,561,128</td><td class='BEHIND'>BEHIND -199,749,329</td><td>0.15 s</td><td>0.17 s</td><td>198</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>2.96 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>82 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>5.34 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>83 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>3.95 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>75 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>5.30 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>85 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>2.97 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>57 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>4.20 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>3</td><td>339,023,690</td><td>339,023,690</td><td>339,023,690</td><td class='TIE'>TIE</td><td>88 s</td><td>1.0 h</td><td>0</td></tr>
+</table>
+<p>1kp-bs10: 103 taxa, 424 gene trees. Best known score 326,972,173; better ASTRAL 326,972,173.</p>
+<table><tr><th>track</th><th>method</th><th>runs</th><th>best</th><th>median</th><th>worst</th><th>best vs ASTRAL</th><th>median time to best</th><th>median run time</th><th>RF to ASTRAL-III tree</th></tr>
+<tr><td>baseline</td><td>ASTRAL-III</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td></td><td></td><td>38 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td></td><td></td><td>54 s</td><td></td></tr>
+<tr><td>baseline</td><td>ASTRAL-IV -R</td><td>2</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td></td><td></td><td>137 s</td><td></td></tr>
+<tr><td>warm</td><td>anneal / astral3</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>anneal / astral4</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.12 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral3</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.10 s</td><td>0.12 s</td><td>0</td></tr>
+<tr><td>warm</td><td>dp / astral4</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.12 s</td><td>0.14 s</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral3</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.16 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>ils / astral4</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.16 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral3</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.11 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>multistart / astral4</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.13 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral3</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.16 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>warm</td><td>vnd / astral4</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.17 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / distance</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.21 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / genetree</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / greedy</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>anneal / random</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.9 h</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / distance</td><td>1</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.15 s</td><td>0.17 s</td><td>0</td></tr>
+<tr><td>cold</td><td>dp / genetree</td><td>3</td><td>307,175,877</td><td>300,246,667</td><td>297,748,710</td><td class='BEHIND'>BEHIND -19,796,296</td><td>0.08 s</td><td>0.10 s</td><td>122</td></tr>
+<tr><td>cold</td><td>dp / greedy</td><td>3</td><td>326,965,758</td><td>326,965,214</td><td>326,627,614</td><td class='BEHIND'>BEHIND -6,415</td><td>0.17 s</td><td>0.19 s</td><td>12</td></tr>
+<tr><td>cold</td><td>dp / random</td><td>3</td><td>130,959,033</td><td>128,167,921</td><td>125,291,226</td><td class='BEHIND'>BEHIND -196,013,140</td><td>0.16 s</td><td>0.18 s</td><td>198</td></tr>
+<tr><td>cold</td><td>ils / distance</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.16 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / genetree</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>61 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / greedy</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>5.76 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>ils / random</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>102 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / distance</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.20 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / genetree</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>71 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / greedy</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>7.40 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>multistart / random</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>101 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / distance</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>0.14 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / genetree</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>75 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / greedy</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>5.96 s</td><td>1.0 h</td><td>0</td></tr>
+<tr><td>cold</td><td>vnd / random</td><td>3</td><td>326,972,173</td><td>326,972,173</td><td>326,972,173</td><td class='TIE'>TIE</td><td>83 s</td><td>1.0 h</td><td>0</td></tr>
+</table>
+<h2>5. Checks</h2>
+<p>All scorers agree, no result exceeds an exact optimum, and every run finished.</p>
+</body></html>

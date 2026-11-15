@@ -1,17 +1,17 @@
+
 {
   "name": "stageB",
-  "comment": "Full real datasets. The three ASTRAL test sets are used as shipped; the others are picked up once you place the files in data/ (see data/README.md).",
+  "comment": "Full real datasets. Strategies kept are the ones that proved themselves in stage A.",
   "datasets": [
     {"name": "mammals",     "genes": "ext/ASTRAL/Astral/test_data/song_mammals.424.gene.tre"},
-    {"name": "1kp",         "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees.tre"},
-    {"name": "1kp-bs10",    "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees-BS10.tre"},
-    {"name": "avian-tent",  "genes": "data/avian_tent.tre"},
-    {"name": "avian-uce",   "genes": "data/avian_uce.tre"},
     {"name": "angiosperms", "genes": "data/angiosperms.tre"},
-    {"name": "insects",     "genes": "data/insects.tre"}
+    {"name": "avian-tent",  "genes": "data/avian_tent.tre"},
+    {"name": "1kp",         "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees.tre"},
+    {"name": "1kp-bs10",    "genes": "ext/ASTRAL/Astral/test_data/1KP-genetrees-BS10.tre"}
   ],
   "exact_max_taxa": 0,
   "java_mem": "12g",
+  "baseline_timeout": 115200,
   "astral4_threads": 1,
   "baselines": [
     {"method": "astral3",   "seeds": [1, 2, 3]},
@@ -19,9 +19,9 @@
     {"method": "astral4-R", "seeds": [1, 2]}
   ],
   "search": {
-    "strategies": ["dp", "reorient", "pairswap-first", "vnd", "anneal", "ils", "tabu", "multistart"],
+    "strategies": ["dp", "vnd", "anneal", "ils", "multistart"],
     "warm": ["astral3", "astral4"],
-    "cold": ["genetree", "distance", "caterpillar", "greedy", "bestrandom", "random"],
+    "cold": ["distance", "greedy", "genetree", "random"],
     "seeds": [1, 2, 3],
     "time": 3600
   }
